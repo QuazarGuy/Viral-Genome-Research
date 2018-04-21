@@ -1,0 +1,87 @@
+LOCUS       NC_007543               1350 bp ds-RNA     linear   VRL 19-JUN-2009
+DEFINITION  Rotavirus C segment 6, complete sequence.
+ACCESSION   NC_007543
+VERSION     NC_007543.1
+DBLINK      BioProject: PRJNA16140
+KEYWORDS    RefSeq; non-structural protein 3; NSP3 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1
+  AUTHORS   James,V.L., Lambden,P.R., Deng,Y., Caul,E.O. and Clarke,I.N.
+  TITLE     Molecular characterization of human group C rotavirus genes 6, 7
+            and 9
+  JOURNAL   J. Gen. Virol. 80 (PT 12), 3181-3187 (1999)
+   PUBMED   10567650
+REFERENCE   2  (bases 1 to 1350)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1350)
+  AUTHORS   James,V.L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-1999) James V.L.A., Molecular Microbiology,
+            University of Southampton, Southampton General Hospital,
+            Southampton, SO16 6YD, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ132203.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1350
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="6"
+                     /country="United Kingdom"
+                     /note="group C"
+     gene            25..1233
+                     /gene="NSP3"
+                     /locus_tag="HRCV_s6gp1"
+                     /db_xref="GeneID:3773128"
+     CDS             25..1233
+                     /gene="NSP3"
+                     /locus_tag="HRCV_s6gp1"
+                     /codon_start=1
+                     /product="nonstructural protein 3"
+                     /protein_id="YP_392486.1"
+                     /db_xref="GOA:Q9PY95"
+                     /db_xref="InterPro:IPR001159"
+                     /db_xref="InterPro:IPR002873"
+                     /db_xref="UniProtKB/TrEMBL:Q9PY95"
+                     /db_xref="GeneID:3773128"
+                     /translation="MATQASVEWIFNVAGSAASSSLDKAIKDAGGSENFSKYVITKFY
+                     DNYKDCIDDSGVYNACIGRAKTIDKALNDPKVAERNEEWYTNVATISRLDLELAELKL
+                     MLSNLGIKREERVLNSMFSVVREKGRSSNVIMMKQNAVKMIEEGKLKIKVERNETYTE
+                     SLKNKIEELECIIDAFEKGKDITIDLDAMNGEVKLDGNSCSYNSTAALVSTILGTPIK
+                     MYNESGQPLFDVGNYMNPKNIIEKMIELEIPIFKSDYRNNESPDFDSWNERSNLKIVS
+                     VNDCHAICIFKFENNWWCFDDGRLKKHNGAGYPLIVANSKFQIDKILISGDIELNPGP
+                     DILVTLNDYITKYQLKLECTFDIFLEDDGSITYTCYMKLESAEAIGSGRSKKEAKRIA
+                     AYDILDQLGI"
+ORIGIN      
+        1 ggcttttaaa agcacttgct ggaaatggcg actcaggctt ccgttgaatg gatctttaac
+       61 gtagctggat cagctgcttc atcttcttta gataaagcga tcaaggatgc aggagggagt
+      121 gaaaacttct caaaatatgt tatcacaaaa ttttatgata attataaaga ttgcattgat
+      181 gattctggtg tgtataatgc atgtataggt agagctaaaa ctatagataa agcattaaat
+      241 gatccaaaag tagcagagag aaatgaagaa tggtatacaa atgtagcaac aatcagtaga
+      301 cttgatttag aattagcaga attaaaattg atgttatcta atctaggaat taaaagagag
+      361 gagcgagtgt taaattcaat gttctctgtg gtgagagaaa aaggtagatc atcaaacgta
+      421 attatgatga aacaaaatgc agtgaaaatg attgaagaag gaaagttaaa aattaaagta
+      481 gaaagaaatg aaacatatac tgaatcactt aaaaataaaa tagaagaatt ggaatgtata
+      541 atagatgcat ttgaaaaagg aaaagatatc accattgatt tagacgctat gaacggtgaa
+      601 gttaaattag atggaaattc atgttcatat aattcaactg ctgctcttgt ttcgactatt
+      661 ttgggtacac ctattaaaat gtataatgaa tctggacaac ctttgtttga tgtgggaaat
+      721 tatatgaatc caaaaaacat tatcgaaaaa atgattgaat tagaaattcc aatttttaaa
+      781 tcagattata ggaataatga atctccagat tttgatagtt ggaatgaaag gagcaattta
+      841 aaaattgtaa gtgtgaatga ctgtcatgca atatgcatat ttaaatttga gaataattgg
+      901 tggtgttttg atgatggaag attaaaaaag cataatggtg ctggttaccc tctgattgtc
+      961 gcaaattcga aatttcaaat tgataaaatt ttaatttccg gagatatcga attaaatcct
+     1021 ggacctgata tactagttac actaaatgac tacataacta aatatcaatt aaaacttgaa
+     1081 tgcactttcg acatttttct agaggatgat ggatcaatta catatacatg ttacatgaaa
+     1141 ttggaatcag cagaagcaat tggtagtggg agatctaaga aggaagctaa aagaattgca
+     1201 gcatatgaca ttcttgatca acttggtatt taaattaatg tgataatagg aattacgacg
+     1261 ttcagtccag aatatacgga gcactaagtt accgacttga ctgtctaaca gcaagtaaaa
+     1321 ggtcaatggc agactgctta cagtgtggct
+//
+

@@ -1,0 +1,71 @@
+LOCUS       NC_007558                649 bp    RNA     linear   VRL 18-SEP-2008
+DEFINITION  Adult diarrheal rotavirus strain J19, complete genome.
+ACCESSION   NC_007558
+VERSION     NC_007558.1
+DBLINK      BioProject: PRJNA16144
+KEYWORDS    RefSeq.
+SOURCE      Adult diarrheal rotavirus strain J19
+  ORGANISM  Adult diarrheal rotavirus strain J19
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1  (bases 1 to 649)
+  AUTHORS   Jiang,S., Ji,S., Tang,Q., Cui,X., Yang,H., Kan,B. and Gao,S.
+  TITLE     Molecular characterization of a novel adult diarrhoea rotavirus
+            strain J19 isolated in China and its significance for the evolution
+            and origin of group B rotaviruses
+  JOURNAL   J. Gen. Virol. 89 (PT 10), 2622-2629 (2008)
+   PUBMED   18796732
+REFERENCE   2  (bases 1 to 649)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Complete genomic sequence of a novel adult diarrhea rotavirus
+            strain J19 related to the evolution and origin of group B
+            rotaviruses
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 649)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 649)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2005) Department of Diarrhea Disease, National
+            Institute for Communicable Disease Control and Prevention, Chinese
+            Center for Disease Control and Prevention, P.O.Box 5, Changping,
+            Beijing 102206, People's Republic of China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ113907.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..649
+                     /organism="Adult diarrheal rotavirus strain J19"
+                     /mol_type="genomic RNA"
+                     /strain="J19"
+                     /db_xref="taxon:335103"
+     gene            57..587
+                     /locus_tag="ADRSJV19_s11gp1"
+                     /db_xref="GeneID:5076660"
+     CDS             57..587
+                     /locus_tag="ADRSJV19_s11gp1"
+                     /note="non-structural protein"
+                     /codon_start=1
+                     /product="NSP5"
+                     /protein_id="YP_392500.1"
+                     /db_xref="GeneID:5076660"
+                     /translation="MSEVPRFELRSKRKIGKKQKVDIFGDKDDESMLQIDCETDSLIS
+                     ESVSSTHSYEDYSKAYKELTLETPADVNDSASTIVDSVCEESWYDKTIKDEQTKEDKK
+                     TDKKLKRIEKVKENNQNDSMSLQIAQLSLRIQRIESETKLKTLDSAYNTIITQADNLT
+                     TPQKKSLISAILATMR"
+ORIGIN      
+        1 ggaacttaaa acatcaatcg ttgctgcaac agcggttggt tacctcttgc cttagaatga
+       61 gcgaagtgcc tcgatttgaa ttaagaagca aacgaaagat tggaaagaaa caaaaagttg
+      121 atatatttgg agataaagat gatgaatcta tgttacagat cgactgtgag acagattctc
+      181 ttatttcaga atcggttagt tcaactcata gttacgaaga ttattctaaa gcgtataaag
+      241 agttaacttt agagactcca gccgatgtaa atgactcagc ttctacaatc gttgacagtg
+      301 tttgtgaaga gtcttggtat gataaaacga ttaaagatga acaaactaaa gaggataaaa
+      361 aaacagataa aaaacttaaa agaatagaaa aagttaaaga gaataatcaa aatgattcaa
+      421 tgagtttgca aatagctcaa ttatcattac gaatacaaag aatagaatca gaaacaaagt
+      481 tgaaaacact tgattcagct tacaatacta taattacaca agccgacaat ttgactactc
+      541 cacaaaaaaa atcattaata agtgctatat tagcaactat gagataatcg agagccggat
+      601 acattcccct cattactaag ggtcagcccc tgaggtcaat agtataccc
+//
+

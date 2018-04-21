@@ -1,0 +1,77 @@
+LOCUS       NC_002210               1191 bp    cRNA    linear   VRL 19-JUL-2016
+DEFINITION  Influenza B virus (B/Lee/1940) segment 7, complete sequence.
+ACCESSION   NC_002210
+VERSION     NC_002210.1
+DBLINK      BioProject: PRJNA14656
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Orthomyxoviridae; Influenzavirus B.
+REFERENCE   1  (bases 1 to 1191)
+  AUTHORS   Briedis,D.J., Lamb,R.A. and Choppin,P.W.
+  TITLE     Sequence of RNA segment 7 of the influenza B virus genome: partial
+            amino acid homology between the membrane proteins (M1) of influenza
+            A and B viruses and conservation of a second open reading frame
+  JOURNAL   Virology 116 (2), 581-588 (1982)
+   PUBMED   6278729
+REFERENCE   2  (bases 1 to 1191)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to J02094.
+            Sequence reported in [1] flanked on 5' end by vector DNA
+            (agcagctcctgc). Determination of M1 cds by consideration of open
+            reading frames and comparison with related sequences. There is an
+            open reading frame from 513 to 1100 which may encode (part of) an
+            m2 protein. The similarity of this sequence to those of the type A
+            viruses is too inexact to tell.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1191
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="7"
+     gene            25..771
+                     /gene="M1"
+                     /locus_tag="FLUBVsRNA-7gp1"
+                     /db_xref="GeneID:26824006"
+     CDS             25..771
+                     /gene="M1"
+                     /locus_tag="FLUBVsRNA-7gp1"
+                     /codon_start=1
+                     /product="matrix protein M1"
+                     /protein_id="NP_056664.1"
+                     /db_xref="GeneID:26824006"
+                     /translation="MSLFGDTIAYLLSLIEDGEGKAELAEKLHCWFGGKEFDLDSALE
+                     WIKNKRCLTDIQKALIGASICFLKPKDQERKRRFITEPLSGMGTTATKKKGLILAERK
+                     MRRCVSFHEAFEIAEGHESSALLYCLMVMYLNPENYSMQVKLGTLCALCEKQASHSHR
+                     AHSRAARSSVPGVRREMQMVSAMNTAKTMNGMGKGEDVQKLAEELQNNIGVLRSLGAS
+                     QKNGEGIAKDVMEVLKQSSMGNSALVRKYL"
+ORIGIN      
+        1 agcagaagca cgcactttct taaaatgtcg ctgtttggag acacaattgc ctacctgctt
+       61 tcactaatag aagatggaga aggcaaagca gaactagctg aaaaattaca ctgttggttc
+      121 ggtgggaaag aatttgacct agattctgct ttggaatgga taaaaaacaa aaggtgccta
+      181 actgatatac aaaaagcact aattggtgcc tctatatgct ttttaaaacc caaagaccaa
+      241 gaaagaaaaa ggagattcat cacagagccc ctgtcaggaa tgggaacaac agcaacaaag
+      301 aagaaaggcc taattctagc tgagagaaaa atgagaagat gtgtaagctt tcatgaagca
+      361 tttgaaatag cagaaggcca cgaaagctca gcattactat attgtcttat ggtcatgtac
+      421 ctaaaccctg aaaactattc aatgcaagta aaactaggaa cgctctgtgc tttatgcgag
+      481 aaacaagcat cgcactcgca tagagcccat agcagagcag caaggtcttc ggtacctgga
+      541 gtaagacgag aaatgcagat ggtttcagct atgaacacag caaagacaat gaatggaatg
+      601 ggaaagggag aagacgtcca aaaactagca gaagagctgc aaaacaacat tggagtgttg
+      661 agatctctag gagcaagtca aaagaatgga gaaggaattg ccaaagatgt aatggaagtg
+      721 ctaaaacaga gctctatggg aaattcagct cttgtgagga aatacttata atgctcgaac
+      781 cacttcagat tctttcaatt tgttctttca ttttatcagc tctccatttc atggcttgga
+      841 caatagggca tttgaatcaa ataaaaagag gggtaaactt gaaaatacaa ataaggaatc
+      901 caaataagga ggcaataaac agagaggtgt caattctgag acacaattac caaaaggaaa
+      961 tccaagccaa agaaacaatg aagaaaatac tctctgacaa catggaagta ttgggtgacc
+     1021 acatagtagt tgaagggctt tcaactgatg agataataaa aatgggtgaa acagttttgg
+     1081 aggtggaaga attgcaatga gcccaatttt cactgtattt cttactatgc atttaagcaa
+     1141 attgtaatca atgtcagtga ataaaactgg aaaaagtgcg ttgtttctac t
+//
+

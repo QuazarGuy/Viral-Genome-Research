@@ -1,0 +1,73 @@
+LOCUS       NC_004204               1136 bp ds-RNA     linear   VRL 20-OCT-2015
+DEFINITION  Banna virus segment 7, complete sequence.
+ACCESSION   NC_004204
+VERSION     NC_004204.1
+DBLINK      BioProject: PRJNA15178
+KEYWORDS    RefSeq.
+SOURCE      Banna virus strain JKT-6423
+  ORGANISM  Banna virus strain JKT-6423
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Seadornavirus.
+REFERENCE   1  (bases 1 to 1136)
+  AUTHORS   Attoui,H., Charrel,R.N., Billoir,F., Cantaloube,J.F., de Micco,P.
+            and de Lamballerie,X.
+  TITLE     Comparative sequence analysis of American, European and Asian
+            isolates of viruses in the genus Coltivirus
+  JOURNAL   J. Gen. Virol. 79 (PT 10), 2481-2489 (1998)
+   PUBMED   9780055
+REFERENCE   2  (bases 1 to 1136)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1136)
+  AUTHORS   Attoui,H., de Lamballerie,X. and De Micco,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-MAR-1998) Virologie, Faculte de Medecine de
+            Marseille, 27-boulevard Jean Moulin, Marseille 13005, France
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF052018.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1136
+                     /organism="Banna virus strain JKT-6423"
+                     /mol_type="genomic RNA"
+                     /strain="JKT-6423"
+                     /db_xref="taxon:649604"
+                     /segment="7"
+     gene            64..984
+                     /locus_tag="BAVs7gp1"
+                     /db_xref="GeneID:995346"
+     CDS             64..984
+                     /locus_tag="BAVs7gp1"
+                     /codon_start=1
+                     /product="Vp7"
+                     /protein_id="NP_694462.1"
+                     /db_xref="GeneID:995346"
+                     /translation="MNNGQATITRNGGRFEIRCRHLDRDYTMPLPNATSNDNFLDCIK
+                     FITECVGFDYVSSGFKLIANVNDFQHLNGNSTLLIGKTKIGPLILKKVRSLPCCNDAL
+                     FRNEFRILAKMHGILRLKNDVNGHKYGIILERCYKPKINFSNFVTAINDLDVFHSSNQ
+                     HLLHGDANPDNIMSDSEGYLKLVDPVCLLENQVNMVNIEYESLTQEAEKKVFINSLLQ
+                     LVEKQMSATIDEIYVNLKEVNPSFNLEHGLKLSDLLDNIDVYNSDHWKLMLNHRPMMP
+                     ELSVLNDLTYYDTGEVRDLVTEDLDDEDDV"
+ORIGIN      
+        1 gtattaaaat tcagcaattg tccaatttag gaaacattct gtttaagagt tgacaaggtc
+       61 tcaatgaata atggacaagc aacaattaca agaaatggag gaaggttcga aatcaggtgt
+      121 cgtcacttgg accgtgacta caccatgcca ctaccaaatg ctactagtaa tgataatttt
+      181 cttgattgta ttaagtttat cactgagtgt gtgggctttg attatgtaag tagtggtttt
+      241 aagctaattg ctaatgttaa tgactttcaa catttaaacg gtaactcaac tctactcatt
+      301 ggtaaaacga agatcggacc gttaatatta aagaaagtta gatcattgcc ttgttgtaat
+      361 gatgctttat ttagaaatga atttcgtatt ctcgcaaaga tgcatggcat actacgatta
+      421 aagaatgacg ttaacggcca caagtatgga attattctag aaaggtgtta caagccaaaa
+      481 atcaatttct caaatttcgt tacagccatt aatgacttag atgtattcca ttctagtaat
+      541 caacacttgt tacacggtga tgcaaatcct gataatatca tgagtgatag tgaaggttac
+      601 ttgaaattgg ttgacccagt ttgcttgctt gaaaatcaag tgaatatggt aaatatagag
+      661 tacgaatcgt taacccaaga agctgagaag aaagtattta tcaattcatt actacagtta
+      721 gttgagaaac aaatgtctgc aacgattgac gagatatatg tcaatttaaa agaagtaaac
+      781 ccatcgttta atttagaaca tggcctgaaa ttgtctgatt tgcttgataa cattgatgtc
+      841 tacaactccg atcactggaa gctaatgtta aatcatcgac caatgatgcc tgagctatca
+      901 gtgcttaatg atttaactta ctatgatact ggtgaagtga gagatttggt taccgaagat
+      961 ctagatgatg aagatgacgt ttaataacac aatatatata ttcattgaga ctaaggaaac
+     1021 tcttaacaca gatgtacgac ctgccacact actgtcgccc aaggtaatgt ggtaaggcgt
+     1081 tgggggttgg cgctccctat acttctgcgg aatcatcacc tgaatgaaga actgac
+//
+

@@ -1,0 +1,86 @@
+LOCUS       NC_007553               1287 bp    RNA     linear   VRL 18-SEP-2008
+DEFINITION  Adult diarrheal rotavirus strain J19, complete genome.
+ACCESSION   NC_007553
+VERSION     NC_007553.1
+DBLINK      BioProject: PRJNA16144
+KEYWORDS    RefSeq.
+SOURCE      Adult diarrheal rotavirus strain J19
+  ORGANISM  Adult diarrheal rotavirus strain J19
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1  (bases 1 to 1287)
+  AUTHORS   Jiang,S., Ji,S., Tang,Q., Cui,X., Yang,H., Kan,B. and Gao,S.
+  TITLE     Molecular characterization of a novel adult diarrhoea rotavirus
+            strain J19 isolated in China and its significance for the evolution
+            and origin of group B rotaviruses
+  JOURNAL   J. Gen. Virol. 89 (PT 10), 2622-2629 (2008)
+   PUBMED   18796732
+REFERENCE   2  (bases 1 to 1287)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Complete genomic sequence of a novel adult diarrhea rotavirus
+            strain J19 related to the evolution and origin of group B
+            rotaviruses
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 1287)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 1287)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2005) Department of Diarrhea Disease, National
+            Institute for Communicable Disease Control and Prevention, Chinese
+            Center for Disease Control and Prevention, P.O.Box 5, Changping,
+            Beijing 102206, People's Republic of China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ113902.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1287
+                     /organism="Adult diarrheal rotavirus strain J19"
+                     /mol_type="genomic RNA"
+                     /strain="J19"
+                     /db_xref="taxon:335103"
+     gene            32..1222
+                     /locus_tag="ADRSJV19_s6gp1"
+                     /db_xref="GeneID:5076655"
+     CDS             32..1222
+                     /locus_tag="ADRSJV19_s6gp1"
+                     /note="major inner capsid protein"
+                     /codon_start=1
+                     /product="VP6"
+                     /protein_id="YP_392495.1"
+                     /db_xref="GeneID:5076655"
+                     /translation="MDLIETINAVVELQHRVRNLSPNTNIYQDGQTTINDYNAIASRC
+                     NGKVYNLRDQIAQLSPFQVHMPVIPISTILSTDDHETMSAGIESLFDVLAAAIRTEGS
+                     RQNRAVVTKSIEPEVLKAVLDIGIRSQFSENPYANMLQVDTAKMEQQLEPIDDPLASQ
+                     RINMLAAGGATNNTGGGYHALVGRATGKTGIITIIQGRPGAVTFNLNMKVPCSGVLSL
+                     TLLPAPGVIQLSLGNQPPNNIPVHAECVDVSTVFTEGDIVIRFELAGRVVGNANKLGT
+                     LNFPLCDRISITIEPWNANKQNNANANFNNWPAGTAQRQPTISLFVNIINASSLIDYE
+                     THSKYLAGATYLMGTTFSEDSFIASPPNVVWTMSSLLSGAPPQYIHWTRKIACMIAAF
+                     SCKI"
+ORIGIN      
+        1 ggcaatttct tgctacaagt gactgtgaag gatggatctg attgagacga ttaatgcagt
+       61 tgttgaactg caacatagag ttagaaattt atcaccaaat actaatatat atcaagatgg
+      121 gcagacaaca attaatgatt ataatgctat tgcatctaga tgtaatggaa aagtgtacaa
+      181 tctaagagac caaattgctc agttgtctcc atttcaagtt catatgccag tgattccaat
+      241 atcaactatt ttatcaacag atgatcatga aacaatgtcg gcgggaattg aatcgctgtt
+      301 tgacgttcta gccgcagcta ttagaactga gggatctaga cagaatagag ctgttgtcac
+      361 taagtctatt gagcctgagg ttctaaaagc agttttagat attggaatta gatcccagtt
+      421 ttcagagaat ccttatgcga atatgttaca agttgacacg gcaaaaatgg agcagcaact
+      481 agaacccatt gatgatccac ttgcaagtca gagaattaat atgttagcag ctggaggtgc
+      541 tacaaataat actggtggag gatatcacgc attagttgga agagcaacag gaaaaacagg
+      601 tataattacg attatccagg gtagaccagg agccgtaaca ttcaatttaa atatgaaagt
+      661 gccatgttct ggagtactat cactaacttt acttccagct ccaggtgtga ttcaattatc
+      721 gctaggaaat cagccaccta ataacatccc cgtacatgcg gaatgtgttg acgtatcaac
+      781 ggtttttact gaaggagata tcgttataag gtttgaattg gcaggaagag ttgttggaaa
+      841 cgccaacaaa cttggaacac tcaactttcc tctatgtgat cgtattagca ttacaattga
+      901 accttggaat gccaataaac aaaataatgc taatgctaat tttaataatt ggccggctgg
+      961 aacagcacaa agacaaccaa ctatatcatt atttgttaac attattaatg catcatcttt
+     1021 aattgattat gaaactcatt ccaaatattt agctggtgca acatatctga tgggtacaac
+     1081 tttttcagaa gattcattta ttgcgtctcc acctaatgtt gtatggacaa tgagctcatt
+     1141 gctttcaggt gcgccaccac agtatattca ttggacaaga aaaattgcat gtatgattgc
+     1201 agctttctcc tgcaaaatct gattggtcag gtttggtcac gcgctgcgaa gcggcgttcc
+     1261 gtagtagtat agaaataaaa tataccc
+//
+

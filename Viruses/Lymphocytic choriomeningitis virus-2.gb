@@ -1,0 +1,134 @@
+LOCUS       NC_004294               3376 bp ss-RNA     linear   VRL 20-OCT-2015
+DEFINITION  Lymphocytic choriomeningitis virus segment S, complete sequence.
+ACCESSION   NC_004294
+VERSION     NC_004294.1
+DBLINK      BioProject: PRJNA14862
+KEYWORDS    RefSeq.
+SOURCE      Lymphocytic choriomeningitis mammarenavirus (LCMV)
+  ORGANISM  Lymphocytic choriomeningitis mammarenavirus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Arenaviridae; Mammarenavirus.
+REFERENCE   1  (bases 1 to 3376)
+  AUTHORS   Salvato,M., Shimomaye,E., Southern,P. and Oldstone,M.B.
+  TITLE     Virus-lymphocyte interactions. IV. Molecular characterization of
+            LCMV Armstrong (CTL+) small genomic segment and that of its
+            variant, Clone 13 (CTL-)
+  JOURNAL   Virology 164 (2), 517-522 (1988)
+   PUBMED   3259346
+REFERENCE   2  (bases 1 to 3376)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-SEP-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from M20869.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3376
+                     /organism="Lymphocytic choriomeningitis mammarenavirus"
+                     /mol_type="genomic RNA"
+                     /db_xref="taxon:11623"
+                     /segment="S"
+     gene            78..1574
+                     /locus_tag="LCMVsSgp1"
+                     /db_xref="GeneID:956591"
+     CDS             78..1574
+                     /locus_tag="LCMVsSgp1"
+                     /codon_start=1
+                     /product="envelope glycoprotein"
+                     /protein_id="NP_694851.1"
+                     /db_xref="GeneID:956591"
+                     /translation="MGQIVTMFEALPHIIDEVINIVIIVLIVITGIKAVYNFATCGIF
+                     ALISFLLLAGRSCGMYGLKGPDIYKGVYQFKSVEFDMSHLNLTMPNACSANNSHHYIS
+                     MGTSGLELTFTNDSIISHNFCNLTSAFNKKTFDHTLMSIVSSLHLSIRGNSNYKAVSC
+                     DFNNGITIQYNLTFSDRQSAQSQCRTFRGRVLDMFRTAFGGKYMRSGWGWTGSDGKTT
+                     WCSQTSYQYLIIQNRTWENHCTYAGPFGMSRILLSQEKTKFFTRRLAGTFTWTLSDSS
+                     GVENPGGYCLTKWMILAAELKCFGNTAVAKCNVNHDAEFCDMLRLIDYNKAALSKFKE
+                     DVESALHLFKTTVNSLISDQLLMRNHLRDLMGVPYCNYSKFWYLEHAKTGETSVPKCW
+                     LVTNGSYLNETHFSDQIEQEADNMITEMLRKDYIKRQGSTPLALMDLLMFSTSAYLVS
+                     IFLHLVKIPTHRHIKGGSCPKPHRLTNKGICSCGAFKVPGVKTVWKRR"
+     variation       856
+                     /locus_tag="LCMVsSgp1"
+                     /note="t in ARM 53b; c in ARM 53b Clone 13"
+     variation       1298
+                     /locus_tag="LCMVsSgp1"
+                     /note="t in ARM 53b; c in ARM 53b Clone 13"
+     gene            complement(1639..3315)
+                     /locus_tag="LCMVsSgp2"
+                     /db_xref="GeneID:956592"
+     CDS             complement(1639..3315)
+                     /locus_tag="LCMVsSgp2"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="NP_694852.1"
+                     /db_xref="GeneID:956592"
+                     /translation="MSLSKEVKSFQWTQALRRELQSFTSDVKAAVIKDATNLLNGLDF
+                     SEVSNVQRIMRKEKRDDKDLQRLRSLNQTVHSLVDLKSTSKKNVLKVGRLSAEELMSL
+                     AADLEKLKAKIMRSERPQASGVYMGNLTTQQLDQRSQILQIVGMRKPQQGASGVVRVW
+                     DVKDSSLLNNQFGTMPSLTMACMAKQSQTPLNDVVQALTDLGLLYTVKYPNLNDLERL
+                     KDKHPVLGVITEQQSSINISGYNFSLGAAVKAGAALLDGGNMLESILIKPSNSEDLLK
+                     AVLGAKRKLNMFVSDQVGDRNPYENILYKVCLSGEGWPYIACRTSIVGRAWENTTIDL
+                     TSEKPAVNSPRPAPGAAGPPQVGLSYSQTMLLKDLMGGIDPNAPTWIDIEGRFNDPVE
+                     IAIFQPQNGQFIHFYREPVDQKQFKQDSKYSHGMDLADLFNAQPGLTSSVIGALPQGM
+                     VLSCQGSDDIRKLLDSQNRKDIKLIDVEMTREASREYEDKVWDKYGWLCKMHTGIVRD
+                     KKKKEITPHCALMDCIIFESASKARLPDLKTVHNILPHDLIFRGPNVVTL"
+ORIGIN      
+        1 cgcaccgggg atcctaggct ttttggattg cgctttcctc tagatcaact gggtgtcagg
+       61 ccctatccta cagaaggatg ggtcagattg tgacaatgtt tgaggctctg cctcacatca
+      121 tcgatgaggt gatcaacatt gtcattattg tgcttatcgt gatcacgggt atcaaggctg
+      181 tctacaattt tgccacctgt gggatattcg cattgatcag tttcctactt ctggctggca
+      241 ggtcctgtgg catgtacggt cttaagggac ccgacattta caaaggagtt taccaattta
+      301 agtcagtgga gtttgatatg tcacatctga acctgaccat gcccaacgca tgttcagcca
+      361 acaactccca ccattacatc agtatgggga cttctggact agaattgacc ttcaccaatg
+      421 attccatcat cagtcacaac ttttgcaatc tgacctctgc cttcaacaaa aagacctttg
+      481 accacacact catgagtata gtttcgagcc tacacctcag tatcagaggg aactccaact
+      541 ataaggcagt atcctgcgac ttcaacaatg gcataaccat ccaatacaac ttgacattct
+      601 cagatcgaca aagtgctcag agccagtgta gaaccttcag aggtagagtc ctagatatgt
+      661 ttagaactgc cttcgggggg aaatacatga ggagtggctg gggctggaca ggctcagatg
+      721 gcaagaccac ctggtgtagc cagacgagtt accaatacct gattatacaa aatagaacct
+      781 gggaaaacca ctgcacatat gcaggtcctt ttgggatgtc caggattctc ctttcccaag
+      841 agaagactaa gttcttcact aggagactag cgggcacatt cacctggact ttgtcagact
+      901 cttcaggggt ggagaatcca ggtggttatt gcctgaccaa atggatgatt cttgctgcag
+      961 agcttaagtg tttcgggaac acagcagttg cgaaatgcaa tgtaaatcat gatgccgaat
+     1021 tctgtgacat gctgcgacta attgactaca acaaggctgc tttgagtaag ttcaaagagg
+     1081 acgtagaatc tgccttgcac ttattcaaaa caacagtgaa ttctttgatt tcagatcaac
+     1141 tactgatgag gaaccacttg agagatctga tgggggtgcc atattgcaat tactcaaagt
+     1201 tttggtacct agaacatgca aagaccggcg aaactagtgt ccccaagtgc tggcttgtca
+     1261 ccaatggttc ttacttaaat gagacccact tcagtgatca aatcgaacag gaagccgata
+     1321 acatgattac agagatgttg aggaaggatt acataaagag gcaggggagt acccccctag
+     1381 cattgatgga ccttctgatg ttttccacat ctgcatatct agtcagcatc ttcctgcacc
+     1441 ttgtcaaaat accaacacac aggcacataa aaggtggctc atgtccaaag ccacaccgat
+     1501 taaccaacaa aggaatttgt agttgtggtg catttaaggt gcctggtgta aaaaccgtct
+     1561 ggaaaagacg ctgaagaaca gcgcctccct gactctccac ctcgaaagag gtggagagtc
+     1621 agggaggccc agagggtctt agagtgtcac aacatttggg cctctaaaaa ttaggtcatg
+     1681 tggcagaatg ttgtgaacag ttttcagatc tgggagcctt gctttggagg cgctttcaaa
+     1741 aatgatgcag tccatgagtg cacagtgcgg ggtgatctct ttcttctttt tgtcccttac
+     1801 tattccagta tgcatcttac acaaccagcc atatttgtcc cacactttgt cttcatactc
+     1861 cctcgaagct tccctggtca tttcaacatc gataagctta atgtccttcc tattctgtga
+     1921 gtccagaagc tttctgatgt catcggagcc ttgacagctt agaaccatcc cctgcggaag
+     1981 agcacctata actgacgagg tcaacccggg ttgcgcattg aagaggtcgg caagatccat
+     2041 gccgtgtgag tacttggaat cttgcttgaa ttgtttttga tcaacgggtt ccctgtaaaa
+     2101 gtgtatgaac tgcccgttct gtggttggaa aattgctatt tccactggat cattaaatct
+     2161 accctcaatg tcaatccatg taggagcgtt ggggtcaatt cctcccatga ggtcttttaa
+     2221 aagcattgtc tggctgtagc ttaagcccac ctgaggtgga cctgctgctc caggcgctgg
+     2281 cctgggtgaa ttgactgcag gtttctcgct tgtgagatca attgttgtgt tttcccatgc
+     2341 tctccccaca atcgatgttc tacaagctat gtatggccat ccttcacctg aaaggcaaac
+     2401 tttatagagg atgttttcat aagggttcct gtccccaact tggtctgaaa caaacatgtt
+     2461 gagttttctc ttggccccga gaactgcctt caagaggtcc tcgctgttgc ttggcttgat
+     2521 caaaattgac tctaacatgt tacccccatc caacagggct gcccctgcct tcacggcagc
+     2581 accaagacta aagttatagc cagaaatgtt gatgctggac tgctgttcag tgatgacccc
+     2641 cagaactggg tgcttgtctt tcagcctttc aagatcatta agatttggat acttgactgt
+     2701 gtaaagcaag ccaaggtctg tgagcgcttg tacaacgtca ttgagcggag tctgtgactg
+     2761 tttggccata caagccatag ttagacttgg cattgtgcca aattgattgt tcaaaagtga
+     2821 tgagtctttc acatcccaaa ctcttaccac accacttgca ccctgctgag gctttctcat
+     2881 cccaactatc tgtaggatct gagatctttg gtctagttgc tgtgttgtta agttccccat
+     2941 atatacccct gaagcctggg gcctttcaga cctcatgatc ttggccttca gcttctcaag
+     3001 gtcagccgca agagacatca gttcttctgc actgagcctc cccactttca aaacattctt
+     3061 ctttgatgtt gactttaaat ccacaagaga atgtacagtc tggttgagac ttctgagtct
+     3121 ctgtaggtct ttgtcatctc tcttttcctt cctcatgatc ctctgaacat tgctgacctc
+     3181 agagaagtcc aacccattca gaaggttggt tgcatcctta atgacagcag ccttcacatc
+     3241 tgatgtgaag ctctgcaatt ctcttctcaa tgcttgcgtc cattggaagc tcttaacttc
+     3301 cttagacaag gacatcttgt tgctcaatgg tttctcaaga caaatgcgca atcaaatgcc
+     3361 taggatccac tgtgcg
+//
+

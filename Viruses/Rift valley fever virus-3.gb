@@ -1,0 +1,117 @@
+LOCUS       NC_002045               1690 bp ss-RNA     linear   VRL 12-AUG-2010
+DEFINITION  Rift Valley fever virus segment S, complete sequence.
+ACCESSION   NC_002045
+VERSION     NC_002045.1
+DBLINK      Project: 14631
+KEYWORDS    RefSeq; non structural protein; nucleoprotein.
+SOURCE      Rift Valley fever virus
+  ORGANISM  Rift Valley fever virus
+            Viruses; ssRNA negative-strand viruses; Bunyaviridae; Phlebovirus.
+REFERENCE   1  (bases 1 to 1690)
+  AUTHORS   Giorgi,C., Accardi,L., Nicoletti,L., Gro,M.C., Takehara,K.,
+            Hilditch,C., Morikawa,S. and Bishop,D.H.
+  TITLE     Sequences and coding strategies of the S RNAs of Toscana and Rift
+            Valley fever viruses compared to those of Punta Toro, Sicilian
+            Sandfly fever, and Uukuniemi viruses
+  JOURNAL   Virology 180 (2), 738-753 (1991)
+   PUBMED   1846496
+REFERENCE   2  (bases 1 to 1690)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1690)
+  AUTHORS   Bishop,D.H.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-OCT-1990) Bishop D.H.L., NERC Inst. of Virology and
+            Enviromental Microbiology, Mansfield Road, Oxford OX1 3SR, UK
+REFERENCE   4  (bases 1 to 1673; 1684 to 1690)
+  AUTHORS   Bishop,D.H.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUL-1990) Bishop D.H.L., NERC Inst. of Virology and
+            Enviromental Microbiology, Mansfield Road, Oxford OX1 3SR, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X53771.
+            [WARNING] On Aug 12, 2010 this sequence was replaced by
+            NC_014395.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1690
+                     /organism="Rift Valley fever virus"
+                     /mol_type="genomic RNA"
+                     /strain="MM12"
+                     /db_xref="taxon:11588"
+                     /segment="segment S"
+     gene            35..832
+                     /locus_tag="RVFVsSgp1"
+                     /db_xref="GeneID:956561"
+     CDS             35..832
+                     /locus_tag="RVFVsSgp1"
+                     /codon_start=1
+                     /product="NS protein"
+                     /protein_id="NP_049343.1"
+                     /db_xref="GOA:P21698"
+                     /db_xref="UniProtKB/Swiss-Prot:P21698"
+                     /db_xref="GeneID:956561"
+                     /translation="MDYFPVISVDLQSGRRVVSVEYFRGDGPPRIPYSMVGPCCVFLM
+                     HHRPSHEVRLRFSDFYNVGEFPYRVGLGDFASNVAPPPAKPFQRLIDLIGHMTLSDFT
+                     RFPNLKEAISWPLGEPSLAFFDLSSTRVHRNDDIRRDQIATLAMRSCKITNDLEDSFA
+                     GLHRMIATEAILRGIDLCLLPGFDLMYEVAHVQCVRLLQAAKEDISNAVVPNSALIVL
+                     MEESLMLRSSLPSMMGRNNWIPVIPPIPDVEMESEEESDDDGFVEVD"
+     gene            complement(915..1652)
+                     /locus_tag="RVFVsSgp2"
+                     /db_xref="GeneID:956562"
+     CDS             complement(915..1652)
+                     /locus_tag="RVFVsSgp2"
+                     /codon_start=1
+                     /product="N protein"
+                     /protein_id="NP_049344.1"
+                     /db_xref="GOA:P21700"
+                     /db_xref="UniProtKB/Swiss-Prot:P21700"
+                     /db_xref="GeneID:956562"
+                     /translation="MDNYQELRVQFAAQAVDRNEIEQWVREFAYQGFDARRVIELLKQ
+                     YGGADWEKDAKKMIVLALTRGNKPRRMMMKMSKEGKATVEALINKYKLKEGNPSRDEL
+                     TLSRVAAALAGWTCQALVVLSEWLPVTGTTMDGLSPAYPRHMMHPSFAGMVDPSLPGD
+                     YLRAILDAHSLYLLQFSRVINPNLRGRTKEEVAATFTQPMNAAVNSNFISHEKRREFL
+                     KAFGLVDSNGKPSAAVMAAAQAYKTAA"
+     old_sequence    1673..1675
+                     /note="ctc was cac in [1]"
+                     /citation=[4]
+     old_sequence    1680..1682
+                     /note="gag was ggg in [1]"
+                     /citation=[4]
+     old_sequence    1681..1684
+                     /note="gc was gtc in [1]"
+                     /citation=[4]
+ORIGIN      
+        1 acacaaagac cccctagtgc ttatcaagta tatcatggat tactttcctg tgatatctgt
+       61 tgatttgcag agtggtcgtc gtgttgtgtc agtggagtac tttagaggag atggtcctcc
+      121 caggatacct tattctatgg ttgggccctg ttgtgtcttt ctcatgcacc atcgtcctag
+      181 tcacgaggtt cgcttgcgat tctctgactt ctacaatgtc ggagaattcc cataccgagt
+      241 cggacttgga gactttgcat caaacgttgc acctccacca gcgaagcctt ttcagagact
+      301 tattgatcta ataggccata tgactcttag tgatttcaca aggttcccca atctgaaaga
+      361 agccatatcc tggcctcttg gagaaccctc actggctttc ttcgacctaa gctctactag
+      421 agtgcatagg aatgatgaca ttagaaggga tcagattgcc actctagcaa tgaggagttg
+      481 caagatcacc aatgatctag aggactcctt tgctggctta cacaggatga tagcgactga
+      541 ggccatcctc agagggattg acctgtgcct gttgccaggc tttgatctca tgtatgaggt
+      601 tgctcacgta cagtgcgttc ggcttctgca agcagcaaaa gaggacattt ctaatgctgt
+      661 agttccaaac tcagccctca ttgttcttat ggaggagagc ctgatgctgc gctcatcact
+      721 tcccagcatg atggggagaa acaactggat tccagttatt cctccaatcc cagatgttga
+      781 gatggaatca gaggaggaga gtgatgatga tggatttgtt gaggttgatt agaggttaag
+      841 gctgccccac cccccacccc ctaatcccga ccgtaacccc aactcccctt ccccccaacc
+      901 ccctgggcag ccacttaggc tgctgtcttg taagcctgag cggctgccat gacagcagct
+      961 gacggcttcc cattggaatc cacaagtcca aaggctttca agaattctct cctcttctca
+     1021 tggcttataa agttgctatt cactgctgca ttcattggct gcgtgaacgt tgcagcaacc
+     1081 tcctcttttg ttctacctcg gaggtttggg ttgatgaccc gggagaactg cagcagatac
+     1141 agagagtgag catctaatat tgcccttaga tagtctcctg gtagagaagg atccaccatg
+     1201 ccagcaaagc tggggtgcat catatgcctc gggtatgcag gggataggcc gtccatggta
+     1261 gtcccagtga caggaagcca ctcactcaag acgaccaaag cctggcatgt ccagccagcc
+     1321 aaggcggcag caactcgtga tagagtcaac tcatcccggg aaggattccc ttcctttagc
+     1381 ttatacttgt tgatgagagc ctccacagtt gctttgcctt ctttcgacat tttcatcatc
+     1441 atcctcctgg gcttgttgcc acgagttaga gccagaacaa tcattttctt ggcatccttc
+     1501 tcccagtcag ccccaccata ctgctttaag agttcgataa ctctacgggc atcaaaccct
+     1561 tgataagcaa actctcggac ccactgttca atctcattgc ggtccactgc ttgagcagca
+     1621 aactggactc gaagctcttg atagttgtcc attattgtaa tagtgtttgt atctctaggg
+     1681 agctttgtgt
+//
+

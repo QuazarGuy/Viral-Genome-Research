@@ -1,0 +1,85 @@
+LOCUS       NC_004221               1671 bp ds-RNA     linear   VRL 20-OCT-2015
+DEFINITION  Banna virus strain JKT-6423 segment 6, complete sequence.
+ACCESSION   NC_004221
+VERSION     NC_004221.1
+DBLINK      BioProject: PRJNA15178
+KEYWORDS    RefSeq.
+SOURCE      Banna virus strain JKT-6423
+  ORGANISM  Banna virus strain JKT-6423
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Seadornavirus.
+REFERENCE   1  (bases 1 to 1671)
+  AUTHORS   Attoui,H., Billoir,F., Biagini,P., de Micco,P. and de
+            Lamballerie,X.
+  TITLE     Complete sequence determination and genetic analysis of Banna virus
+            and Kadipiro virus: proposal for assignment to a new genus
+            (Seadornavirus) within the family Reoviridae
+  JOURNAL   J. Gen. Virol. 81 (Pt 6), 1507-1515 (2000)
+   PUBMED   10811934
+REFERENCE   2  (bases 1 to 1671)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-SEP-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1671)
+  AUTHORS   Attoui,H., Billoir,F., de Micco,P. and de Lamballerie,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAR-1999) Virologie, Faculte de Medecine de
+            Marseille, 27-boulevard Jean Moulin, Marseille 13005, France
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF134518.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1671
+                     /organism="Banna virus strain JKT-6423"
+                     /mol_type="genomic RNA"
+                     /strain="JKT-6423"
+                     /db_xref="taxon:649604"
+                     /segment="6"
+     gene            112..1389
+                     /locus_tag="BAVs6gp1"
+                     /db_xref="GeneID:995352"
+     CDS             112..1389
+                     /locus_tag="BAVs6gp1"
+                     /codon_start=1
+                     /product="VP6"
+                     /protein_id="NP_694479.1"
+                     /db_xref="GeneID:995352"
+                     /translation="MMIALIQMKNMKCTLKVEETTENQELEGVSFDELVALREENAKL
+                     KQENEALKAKLHRLESDWTTSDIVEKVELMDAQFDRIGKIMDKMREPMLFKRDEIELH
+                     GDLLARVEGLLRIKNERSEIEFEKDIQCIVGRCFSDENKQRNLEKMIKSFEYDDIADT
+                     IALRLTHFIQDPGLRSIVYAMCKAAVLNQNYLNIEVQEIVDVTRQKYTHNARDDIDFY
+                     PMFTFDANVPEGVFDHIYKKHYLSPQSAALVHTLSHLDVNVDGNGIAMYHIGSATRFA
+                     ECSVVYVDGRAYKPIRVMAEYAIFPTLPHEYKGRVEGLLLLHGGLAPITLVRVYHDVN
+                     VGGLVTGSIAASVSTLLRNCMLYSFDIYFTPNGVCINAVGNNNFVNIIDINCCGRAFG
+                     KAPLDQGSWNRNKFMGHKHGRGSKCKQYKKINS"
+ORIGIN      
+        1 gtatttaaaa ttatagaaag ttctgaacct aggggtcttt ctgtctctgc tgtgtggtgg
+       61 gaatcacacg gtctccacta atcacatacg aatctgtaaa agaattcata catgatgatt
+      121 gctttaattc aaatgaagaa tatgaagtgc actttgaaag tcgaggaaac aactgaaaat
+      181 caagaattgg aaggcgtttc attcgatgaa ctagttgcat tgagagagga gaatgccaaa
+      241 ctgaaacaag agaatgaagc tctgaaggct aagcttcatc gtcttgaaag tgactggact
+      301 acttcagaca tcgttgaaaa ggttgagtta atggatgctc agtttgatag gattgggaag
+      361 ataatggata agatgcgtga gccgatgctg tttaagcgtg acgaaatcga attgcatggt
+      421 gatttgctag ctagagttga agggttacta cgcattaaga acgagcgcag tgagattgaa
+      481 tttgaaaagg acattcaatg catagttgga agatgcttca gtgatgagaa taaacaacgt
+      541 aaccttgaaa agatgataaa atcattcgag tatgacgaca ttgctgacac catcgctctg
+      601 cgcttgactc atttcattca ggatccaggt ttacgctcga tagtgtatgc gatgtgtaaa
+      661 gctgctgttc tgaatcaaaa ttatctaaac atcgaggtgc aggagatagt tgacgtgaca
+      721 aggcaaaagt acactcataa cgcacgtgac gacattgatt tttacccaat gtttactttt
+      781 gatgccaacg tgccggaagg tgtcttcgat cacatataca aaaagcacta tttatctcca
+      841 caatctgctg ctttggttca cacactgtca catcttgatg tgaatgttga tggtaatgga
+      901 atagcgatgt atcatatcgg atcagcgacg aggtttgctg agtgttcggt tgtatatgtt
+      961 gatggacgtg cttacaagcc aattagagtt atggctgaat atgctatctt tccaaccttg
+     1021 ccgcatgagt ataaaggtag agtcgaagga ttgttgttgt tgcatggggg attagcgcca
+     1081 ataacattag tgcgtgttta tcacgatgtt aatgttggtg gtctagtgac cggttcgatc
+     1141 gcagcatccg tttcaactct attgcgtaat tgcatgttat acagttttga tatctatttc
+     1201 actccgaatg gtgtttgtat caatgctgtt ggtaacaaca actttgttaa cataatagat
+     1261 ataaactgtt gcggacgtgc ttttggtaaa gctcctttag accaaggatc atggaataga
+     1321 aataagttca tgggtcacaa acatgggaga ggatcaaagt gcaagcagta taagaaaatc
+     1381 aattcataga tattgcttat acggtcagtc atagacgtac gattaagacg cgaggatgac
+     1441 gtaaaatcac aaaaacgtac gtgtcaatgg tgattagggt ttacaacagg tacagaatac
+     1501 ttcatctcgg cgtaatgatg acgttctcgg aacgtgagct attgtgggct tgtcgggctc
+     1561 cacattggcc gttcaggaag gtgtgagctt atggccgcct tctgagagct gatttgttct
+     1621 ccactggatg gtggggtagc agggaatgaa ctggtggtat aattgactga c
+//
+

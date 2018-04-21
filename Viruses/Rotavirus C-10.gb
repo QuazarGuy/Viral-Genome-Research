@@ -1,0 +1,75 @@
+LOCUS       NC_007569                730 bp ds-RNA     linear   VRL 10-FEB-2015
+DEFINITION  Rotavirus C segment 10, complete sequence.
+ACCESSION   NC_007569
+VERSION     NC_007569.1
+DBLINK      BioProject: PRJNA16140
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1  (bases 1 to 730)
+  AUTHORS   Lambden,P.R., Cooke,S.J., Caul,E.O. and Clarke,I.N.
+  TITLE     Cloning of noncultivatable human rotavirus by single primer
+            amplification
+  JOURNAL   J. Virol. 66 (3), 1817-1822 (1992)
+   PUBMED   1371174
+REFERENCE   2  (bases 1 to 730)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 730)
+  AUTHORS   Lambden,P.R., Cooke,S.J., Caul,E.O. and Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-DEC-2000) Molecular Microbiology, Southampton General
+            Hospital, Mailpoint 814, Level C, South Block, Southampton SO16
+            6YD, UK
+  REMARK    Sequence update by submitter
+REFERENCE   4  (bases 1 to 730)
+  AUTHORS   Lambden,P.R., Cooke,S.J., Caul,E.O. and Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JUL-1992) Molecular Microbiology, Southampton General
+            Hospital, Mailpoint 814, Level C, South Block, Southampton SO16
+            6YD, UK
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from M81488.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..730
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /isolate="4077-89"
+                     /db_xref="taxon:36427"
+                     /segment="10"
+     gene            20..658
+                     /gene="NS26"
+                     /locus_tag="HRCV_s10gp1"
+                     /db_xref="GeneID:3773138"
+     CDS             20..658
+                     /gene="NS26"
+                     /locus_tag="HRCV_s10gp1"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="YP_392511.1"
+                     /db_xref="GeneID:3773138"
+                     /translation="MSDFGINLDAICDNVKKGQTESRTGSQLSNRSSRRMDFVDDEEL
+                     STYFNSKASVTQSDSCSNDLEIKHSIITEAVVCDESAHVSADAIQEKDETVPQMDHRI
+                     MKWMLDSHDGVSLNGGINFTKAKSKLKETENEITEMKSKTNLLVNASVGINSNVGAFN
+                     PINQTIKTEAVSDMFEDEDIEGCICKNCPYREKYRKLRSKMKNVLIDMINEM"
+ORIGIN      
+        1 ggctttaaaa attgcgacaa tgtctgattt tggaattaat cttgatgcca tttgcgacaa
+       61 tgtaaaaaaa ggccaaacag aatcaagaac tggttctcaa ttatcaaatc ggagttcacg
+      121 aagaatggat tttgttgatg atgaagagtt aagtacttac tttaactcaa aagcctctgt
+      181 gacacaatca gactcatgtt cgaatgattt agaaattaaa cattctatta taacagaggc
+      241 agtagtatgc gatgaatctg cgcatgtgtc ggcagatgct atccaggaga aagatgaaac
+      301 tgttccgcaa atggaccatc gtattatgaa gtggatgttg gattctcacg atggagttag
+      361 tttgaatgga ggaataaatt ttacaaaggc aaaaagtaag ttgaaagaaa cagaaaatga
+      421 gattactgaa atgaaatcaa agacaaattt attagttaac gcttcagtag gtattaattc
+      481 aaacgtagga gcatttaatc caattaatca aacaataaaa acagaagcag tatcggatat
+      541 gttcgaagat gaagatattg agggatgcat ctgtaaaaat tgtccatata gagaaaagta
+      601 ccgaaaactc cgaagtaaaa tgaaaaacgt attaattgat atgatcaatg aaatgtagtc
+      661 gagtacttgc ccgtactgca tcaggtgact gaaatcagca ttgaggggat ccccaacccg
+      721 atctgtggct
+//
+

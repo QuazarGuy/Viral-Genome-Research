@@ -1,0 +1,102 @@
+LOCUS       NC_002206               2204 bp    cRNA    linear   VRL 03-AUG-2016
+DEFINITION  Influenza B virus (B/Lee/1940) segment 3, complete sequence.
+ACCESSION   NC_002206
+VERSION     NC_002206.1
+DBLINK      BioProject: PRJNA14656
+KEYWORDS    RefSeq.
+SOURCE      Influenza B virus (B/Lee/1940)
+  ORGANISM  Influenza B virus (B/Lee/1940)
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Orthomyxoviridae; Influenzavirus B.
+REFERENCE   1  (bases 1 to 2204)
+  AUTHORS   Hiromoto,Y., Saito,T., Lindstrom,S.E., Li,Y., Nerome,R., Sugita,S.,
+            Shinjoh,M. and Nerome,K.
+  TITLE     Phylogenetic analysis of the three polymerase genes (PB1, PB2 and
+            PA) of influenza B virus
+  JOURNAL   J. Gen. Virol. 81 (Pt 4), 929-937 (2000)
+   PUBMED   10725418
+REFERENCE   2  (bases 1 to 2204)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-JUN-2000) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2204)
+  AUTHORS   Hiromoto,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-OCT-1998) Virology I, National Institute of
+            Infectious Diseases, 1-23-1 Toyama Shinjuku-ku, Tokyo 162-8640,
+            Japan
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AF102017.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2204
+                     /organism="Influenza B virus (B/Lee/1940)"
+                     /mol_type="viral cRNA"
+                     /strain="B/Lee/1940"
+                     /db_xref="taxon:518987"
+                     /segment="3"
+     gene            1..2181
+                     /gene="PA"
+                     /locus_tag="FLUBVsRNA-3gp1"
+                     /db_xref="GeneID:956547"
+     CDS             1..2181
+                     /gene="PA"
+                     /locus_tag="FLUBVsRNA-3gp1"
+                     /codon_start=1
+                     /product="polymerase PA"
+                     /protein_id="NP_056659.1"
+                     /db_xref="GeneID:956547"
+                     /translation="MDTFITKNFQTTIIQKAKNTMAEFSEDPELQPAVLFNICVHLEV
+                     CYVISDMNFLDEEGKTYTALEGQGKEQNLRPQYEVIEGMPRNIAWMVQRSLAQEHGIE
+                     TPRYLADLFDYKTKRFIEVGITKGLADDYFWKKKEKLGNSMELMIFSYNQDYSLSDES
+                     SLDEEGKGRVLSRLTELQAELSLKNLWQVLIGEEEIEKGIDFKLGQTISKLRNISVPA
+                     GFSNFEGMRSYIDNIDPKGAIERNLARMSPLVSVTPKKLKWEDLRPIGPHIYNHELPE
+                     VPYNAFLLMSDELGLANMTEGKSKKPKTLAKECLERYSTLRDQTDPILIMKSEKANEN
+                     FLWRLWRDCVNTISNEETGNELQKTNYAKWATGDGLTYQKIMKEVAIDDETMYQEEPK
+                     IPNKCRVAAWVQAEMNLLSTLTSKRALDLPEIGPDVAPVEHVGSERRKYFVNEINYCK
+                     ASTVMMKYVLFHTSLLNESNASMGKYKVIPITNRVVNEKGESFDMLYGLAVKGQSHLR
+                     GDTDVVTVVTFEFSSTDPRVDSGKWPKYTVFKIGSLFVSGREKPVYLYCRVNGTNKIQ
+                     MKWGMEARRCLLQSMQQMEAIVDQESSIQGYDMTKACFKGDRVNNPKTFSIGTQEGKL
+                     VKGSFGKALRVIFTKCLMHYVFGNAQLEGFSAESRRLLLLIQALKDRKGPWVFDLEGM
+                     YFGVEECISNNPWVIQSAYWFNEWLGIEKEGSKVLESIDEIMDE"
+ORIGIN      
+        1 atggatactt ttattacaaa gaatttccag actacaataa tacaaaaggc caaaaacaca
+       61 atggcagaat ttagtgaaga tcctgaatta cagccagcag tactattcaa catctgcgtc
+      121 catctggagg tctgctatgt aataagtgat atgaactttc ttgatgagga aggaaagaca
+      181 tatacagcat tagaaggaca aggaaaagag caaaatttga gaccacagta tgaagtgatt
+      241 gagggaatgc caagaaacat agcatggatg gttcaaagat ccttagccca agagcatgga
+      301 atagagactc caaggtatct ggctgattta tttgattata aaaccaagag gtttatcgaa
+      361 gtcggaataa caaagggatt ggctgatgat tacttttgga aaaagaaaga aaagttgggg
+      421 aatagcatgg aactgatgat attcagctac aatcaagact actcgttaag tgatgaatct
+      481 tcattggatg aggaaggaaa agggagagtg ctaagcagac tcacagaact tcaggctgag
+      541 ttaagtttga aaaacctatg gcaagttcta ataggggaag aagaaattga aaaaggaatt
+      601 gacttcaaac ttggacaaac aatatctaaa ctgaggaata tatctgttcc agctggtttc
+      661 tccaattttg aagggatgag aagttacata gacaacatag accctaaagg agcaatagag
+      721 agaaatctag caaggatgtc tcccttagta tcagttacac ccaaaaagtt gaaatgggag
+      781 gacctgagac ccatagggcc tcacatttac aaccatgagc taccagaagt tccatataat
+      841 gcctttctcc tcatgtctga tgagttgggg ctggccaata tgactgaagg aaagtccaag
+      901 aaaccgaaga ccttagctaa ggaatgtcta gaaaggtatt caacactacg tgatcaaact
+      961 gacccaatat tgataatgaa aagcgaaaaa gctaacgaaa acttcttatg gaggttatgg
+     1021 agggactgtg taaatacaat aagcaatgag gaaacaggca acgaattaca gaaaaccaat
+     1081 tatgccaagt gggccacagg agatggacta acataccaaa aaataatgaa agaagtagca
+     1141 atagatgacg aaacgatgta ccaagaagaa cccaaaatac ccaataaatg tagagtggct
+     1201 gcttgggttc aggcagagat gaatctactg agtactctga caagtaaaag ggccctggat
+     1261 ctgccagaaa tagggccaga tgtagcaccc gtggagcatg tagggagtga aagaaggaaa
+     1321 tactttgtta atgaaatcaa ctactgtaaa gcctctacag ttatgatgaa gtatgtactt
+     1381 tttcacactt cattattaaa tgaaagcaat gctagtatgg gaaaatataa agtaatacca
+     1441 atcaccaaca gagtggtaaa tgaaaaaggg gaaagctttg acatgcttta tggtctggcg
+     1501 gttaaggggc aatctcattt gcggggggac acggatgttg taacagttgt gactttcgag
+     1561 tttagtagta cagatcctag agtggactca ggaaagtggc caaaatatac tgtctttaaa
+     1621 attggctccc tatttgtgag tggaagagaa aaacctgtgt acctatattg ccgagtgaat
+     1681 ggtacaaaca aaatccaaat gaaatgggga atggaagcta gaagatgtct gcttcaatca
+     1741 atgcaacaaa tggaggcaat tgttgatcaa gaatcatcga tacaagggta tgatatgacc
+     1801 aaagcttgtt tcaagggaga cagagtgaat aatcccaaaa ctttcagtat tgggactcag
+     1861 gaaggcaaac tagtaaaagg gtcctttggg aaagcactaa gagtaatatt caccaaatgt
+     1921 ttgatgcatt atgtatttgg aaatgctcaa ttggaggggt ttagtgccga atctaggaga
+     1981 cttctactgt taattcaggc attaaaagac aggaagggcc cttgggtatt tgacttggag
+     2041 ggaatgtact ttggagtaga ggaatgtatt agtaacaatc cttgggtaat acagagtgca
+     2101 tactggttta atgaatggtt gggcattgaa aaagaaggaa gtaaagtgtt agaatcaata
+     2161 gatgaaataa tggatgaatg aacgaagggc atagcgctca attt
+//
+

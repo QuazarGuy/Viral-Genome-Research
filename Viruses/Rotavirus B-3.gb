@@ -1,0 +1,113 @@
+LOCUS       NC_007550               2512 bp    RNA     linear   VRL 18-SEP-2008
+DEFINITION  Adult diarrheal rotavirus strain J19, complete genome.
+ACCESSION   NC_007550
+VERSION     NC_007550.1
+DBLINK      BioProject: PRJNA16144
+KEYWORDS    RefSeq.
+SOURCE      Adult diarrheal rotavirus strain J19
+  ORGANISM  Adult diarrheal rotavirus strain J19
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1  (bases 1 to 2512)
+  AUTHORS   Jiang,S., Ji,S., Tang,Q., Cui,X., Yang,H., Kan,B. and Gao,S.
+  TITLE     Molecular characterization of a novel adult diarrhoea rotavirus
+            strain J19 isolated in China and its significance for the evolution
+            and origin of group B rotaviruses
+  JOURNAL   J. Gen. Virol. 89 (PT 10), 2622-2629 (2008)
+   PUBMED   18796732
+REFERENCE   2  (bases 1 to 2512)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Complete genomic sequence of a novel adult diarrhea rotavirus
+            strain J19 related to the evolution and origin of group B
+            rotaviruses
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 2512)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 2512)
+  AUTHORS   Ji,S.Z., Jiang,S.J. and Yang,H.Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-JUN-2005) Department of Diarrhea Disease, National
+            Institute for Communicable Disease Control and Prevention, Chinese
+            Center for Disease Control and Prevention, P.O.Box 5, Changping,
+            Beijing 102206, People's Republic of China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from DQ113899.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2512
+                     /organism="Adult diarrheal rotavirus strain J19"
+                     /mol_type="genomic RNA"
+                     /strain="J19"
+                     /db_xref="taxon:335103"
+     gene            11..2482
+                     /locus_tag="ADRSJV19_s4gp1"
+                     /db_xref="GeneID:5076652"
+     CDS             11..2482
+                     /locus_tag="ADRSJV19_s4gp1"
+                     /note="outer capsid protein"
+                     /codon_start=1
+                     /product="VP4"
+                     /protein_id="YP_392492.1"
+                     /db_xref="GeneID:5076652"
+                     /translation="MSLRSLLITTEAVGETTQTSDHQTSFSTRTYNEINDRPSLRIEK
+                     DGEKAYCFKNLDPVRYDTRMGEYPFDYGGQSTENNQLQFDLFTKDLKADTDIDLSDDV
+                     KDDLKRQIMEYYQQGYRAIFLVRPQNQEQHYIASYSSTNLNFTSQPSIGVNLSILNKI
+                     QENKLYIYSTQPHIPSVGCEMIAKIFRTDIDNENSLINYSAPVTVTISVTKATFGDTF
+                     VCNHPNMNYQDLIPTMTKNSIYHDVKRITKIHEYINSKKKKKNSTSKIGGIQIAESKD
+                     GFWKILTKNYQIKLKFGVEGYGVMGGTFGNWLIDSGFKTVETNYEYQRNGKTINATTV
+                     ASVKPSRKCGTRSPVFGQLQFSGEMMVLSHNDILTVFYTEREWALSNAIYAKNFATDF
+                     KRQFEITAQSDELLVRTNVVPHTIKNTPGKALMEYSHGGFGQIDTSDYTGMALTFRFR
+                     CISEDLPEGYYDRDKALAFANVGLTSFQDRQEANGTYWVYNTSTVGFGSCYPKKEFEY
+                     DINVTYTTLLPSDPEFTTGGTNYAQSVTAVLEESFINLQNQVNEMLTRMNISDLTSGV
+                     MSVFSVATSFPQILDGISDLLKAASSAFKKVKGKVGSVAKRLRGKRYVRLFDENVSIE
+                     ETPRFLDSIRSSRRPSILSNMFNDDETFTALHTLASRTNSVASDVTYLQPIITTRIAN
+                     STPPVIAPASSVTYAKLKDISKIINAEIDPKSIMEFNQISNTISILDSTKKLAQYAVD
+                     PDIIDGILNKMVGGHARSLFSLKVRKHLLDAVEKDAFVKYNYHDLMGKLLNDRELLDI
+                     TNNLSSQKQFELAKEFRDLLINALA"
+ORIGIN      
+        1 ggcacttaag atgtctctca gaagtttgtt gattacaact gaggcggttg gagagaccac
+       61 tcaaacgagt gatcatcaaa catcatttag cacaagaacg tataacgaaa tcaatgatag
+      121 accttcactg agaatagaaa aggatggaga aaaagcatac tgttttaaaa atctagatcc
+      181 agtaagatat gatacacgaa tgggagagta cccgtttgat tacggtggac aatcaacaga
+      241 aaataatcaa ttacaatttg atcttttcac aaaggatctc aaagcagaca ctgatattga
+      301 tttatctgat gatgtgaaag atgatttgaa acggcaaatt atggaatact atcaacaagg
+      361 ataccgcgca atttttttag ttagacctca aaatcaagaa caacattata tagccagtta
+      421 tagttcaact aatttaaact tcacatcaca gccaagtatc ggtgttaacc tatctatttt
+      481 aaataaaatt caagagaata aattatacat ttattccacg cagccacaca ttccttctgt
+      541 aggatgtgag atgatagcaa aaatatttag aaccgatata gataatgaaa attcattgat
+      601 taactattca gcacctgtaa cggtaacgat ctcagtcaca aaagctacat ttggagacac
+      661 atttgtgtgc aatcatccga acatgaatta ccaagattta atacctacta tgactaaaaa
+      721 tagcatttac catgatgtta aaagaataac taaaatccat gaatacatta atagtaaaaa
+      781 aaagaagaaa aatagcacta gtaaaatagg aggaattcaa atagctgaat caaaagacgg
+      841 attttggaaa atattaacga aaaattatca aatcaaactc aaatttggtg tcgaaggata
+      901 tggagttatg ggtggcacat ttggaaattg gctaattgat agtggattta aaaccgttga
+      961 gacaaattat gagtaccaga gaaacgggaa gacaattaat gcaacaacgg ttgcttcagt
+     1021 taaaccatca agaaaatgtg gaactagaag tcctgtattt ggacagttac agttttcagg
+     1081 agaaatgatg gtgttatcac ataatgatat tctaactgtg ttctatactg aaagggaatg
+     1141 ggctttgtct aatgctatat atgcaaaaaa ctttgcaacg gattttaaaa gacaatttga
+     1201 aataactgca cagtcagatg aattattagt tcgtactaat gtagttccac atactataaa
+     1261 aaatacacca ggaaaagctt taatggaata ttcacatgga ggttttggcc aaattgatac
+     1321 ttccgactat actggcatgg cacttacatt tagatttaga tgcattagcg aagatttacc
+     1381 cgaaggttat tatgacagag ataaagcttt agctttcgct aatgtcggtc taacatcatt
+     1441 tcaagataga caagaagcta atggaactta ttgggtatac aacacatcta ctgttggatt
+     1501 cggttcatgt tatccgaaaa aagaatttga atatgatatc aatgtgacat atactacact
+     1561 gttgccatct gatccagaat ttacaacggg gggaactaac tatgctcaat cagttactgc
+     1621 agttctggaa gaatcattta ttaatttaca aaatcaagtt aatgagatgt taacaagaat
+     1681 gaacatttct gatcttactt cgggagttat gtctgttttt tctgtcgcaa catcttttcc
+     1741 acaaattctt gatggtataa gtgatctgtt aaaagcagct tcatcagctt ttaaaaaagt
+     1801 gaaaggaaag gtaggaagtg ttgctaaaag actgagaggg aagagatatg ttagactttt
+     1861 tgatgaaaat gtatcaatcg aggagactcc cagatttctt gattcaatta gatcaagtag
+     1921 acgaccgtca atcttgtcca acatgttcaa tgacgacgaa acttttactg ctttgcatac
+     1981 tttagcaagt agaacgaatt ccgttgcaag tgatgtgaca tatttacagc ctataataac
+     2041 aacaagaata gcaaactcga cacctccagt tattgcacca gcatcttccg taacatatgc
+     2101 aaaactaaaa gatatttcaa aaattatcaa cgcggaaatt gatccaaaat caattatgga
+     2161 gtttaaccaa atatctaata ctatcagcat attagattca acaaagaaat tagcacaata
+     2221 tgctgttgat ccagacatta tagatggtat attgaataaa atggtaggtg gacacgctag
+     2281 atcgttattt tcacttaaag ttaggaaaca tttgttagat gccgtggaaa aggacgcatt
+     2341 cgtgaaatat aattatcacg atttgatggg taaactatta aatgatagag aactgttaga
+     2401 tataacaaat aatctatcct cgcaaaaaca attcgaatta gcaaaagaat ttcgcgatct
+     2461 gttaattaac gctcttgcct agatgatatg aaagagatct ttaaatatac cc
+//
+

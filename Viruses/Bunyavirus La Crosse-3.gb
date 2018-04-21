@@ -1,0 +1,85 @@
+LOCUS       NC_004110                984 bp    RNA     linear   VRL 30-NOV-2009
+DEFINITION  La Crosse virus segment S, complete genome.
+ACCESSION   NC_004110
+VERSION     NC_004110.1
+DBLINK      BioProject: PRJNA14847
+KEYWORDS    RefSeq.
+SOURCE      La Crosse virus
+  ORGANISM  La Crosse virus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Bunyavirales; Peribunyaviridae; Orthobunyavirus.
+REFERENCE   1  (bases 1 to 984)
+  AUTHORS   Hughes,M.T., Kempf,B.J., Blair,C.D. and Beaty,B.J.
+  TITLE     Complete sequence of the Bunyavirus, La Crosse virus, Human/78
+            strain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 984)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-AUG-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 984)
+  AUTHORS   Hughes,M.T., Kempf,B.J., Blair,C.D. and Beaty,B.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2002) Microbiology, Colorado State University,
+            3107 Rampart Road, Fort Collins, CO 80525, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AF528167.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..984
+                     /organism="La Crosse virus"
+                     /mol_type="genomic RNA"
+                     /strain="Human/78"
+                     /db_xref="taxon:11577"
+                     /segment="S"
+                     /note="derived from cRNA"
+     gene            82..789
+                     /gene="N"
+                     /locus_tag="LACVsSgp1"
+                     /db_xref="GeneID:956556"
+     CDS             82..789
+                     /gene="N"
+                     /locus_tag="LACVsSgp1"
+                     /codon_start=1
+                     /product="nucleoprotein"
+                     /protein_id="NP_671970.1"
+                     /db_xref="GeneID:956556"
+                     /translation="MSDLVFYDVASTGANGFDPDAGYMDFCVKNAELLNLAAVRIFFL
+                     NAAKAKAALSRKPERKANPKFGEWQVEVINNHFPGNRNNPIGNNDLTIHRLSGYLARW
+                     VLDQYNENDDESQHELIRTTIINPIAESNGVGWDSGPEIYLSFFPGTEMFLETFKFYP
+                     LTIGIHRVKQGMMDPQYLKKALRQRYGTLTADKWMSQKVAAIAKSLKDVEQLKWGKGG
+                     LSDTAKTFLQKFGIRLP"
+     gene            101..379
+                     /gene="NSs"
+                     /locus_tag="LACVsSgp2"
+                     /db_xref="GeneID:956557"
+     CDS             101..379
+                     /gene="NSs"
+                     /locus_tag="LACVsSgp2"
+                     /codon_start=1
+                     /product="non-structural protein"
+                     /protein_id="NP_671971.1"
+                     /db_xref="GeneID:956557"
+                     /translation="MMSHQQVQMDLILMQGIWTSVLKMQNYSTLLQLGSSSSMPQRPR
+                     LLSRVSQRGRLTLNLESGRWRLSIIIFLETGTTQLVTTILPSTDYLGI"
+ORIGIN      
+        1 agtagtgtac cccacttgaa tactttgaaa ataaattgtt gttgactgtt ttttacctaa
+       61 ggggaaatta tcaagagtgt gatgtcggat ttggtgtttt atgatgtcgc atcaacaggt
+      121 gcaaatggat ttgatcctga tgcagggtat atggacttct gtgttaaaaa tgcagaatta
+      181 ctcaaccttg ctgcagttag gatcttcttc ctcaatgccg caaaggccaa ggctgctctc
+      241 tcgcgtaagc cagagaggaa ggctaaccct aaatttggag agtggcaggt ggaggttatc
+      301 aataatcatt ttcctggaaa caggaacaac ccaattggta acaacgatct taccatccac
+      361 agattatctg ggtatttagc cagatgggtc cttgatcagt ataacgagaa tgatgatgag
+      421 tctcagcacg agttgatcag aacaactatt atcaacccaa ttgctgagtc taatggtgta
+      481 ggatgggaca gtgggccaga gatctatcta tcattctttc caggaacaga aatgtttttg
+      541 gaaactttca aattctaccc gctgaccatt ggaattcaca gagtcaagca aggcatgatg
+      601 gaccctcaat acctgaagaa ggccttaagg caacgctatg gcactctcac agcagataag
+      661 tggatgtcac agaaggttgc agcaattgct aagagcctga aggatgtaga gcagcttaaa
+      721 tggggaaaag gaggcctgag cgatactgct aaaacattcc tgcagaaatt tggcatcagg
+      781 cttccataaa tatggcatga ggcattcaaa ttaggttcta aattctaaat ttatatatgt
+      841 caatttgatt aattggttat ccaaaagggt tttcttaagg gaacccacaa aaatagcagc
+      901 taaatgggtg ggtggtaggg gacagcaaaa aactataaat caggtcataa ataaaataaa
+      961 atgtattcag tggggcacac tact
+//
+

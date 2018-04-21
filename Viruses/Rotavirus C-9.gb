@@ -1,0 +1,80 @@
+LOCUS       NC_007545               1037 bp ds-RNA     linear   VRL 08-DEC-2008
+DEFINITION  Rotavirus C segment 9, complete sequence.
+ACCESSION   NC_007545
+VERSION     NC_007545.1
+DBLINK      BioProject: PRJNA16140
+KEYWORDS    RefSeq; non-structural protein 2; NSP2 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1
+  AUTHORS   James,V.L., Lambden,P.R., Deng,Y., Caul,E.O. and Clarke,I.N.
+  TITLE     Molecular characterization of human group C rotavirus genes 6, 7
+            and 9
+  JOURNAL   J. Gen. Virol. 80 (PT 12), 3181-3187 (1999)
+   PUBMED   10567650
+REFERENCE   2  (bases 1 to 1037)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1037)
+  AUTHORS   James,V.L.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-1999) James V.L.A., Molecular Microbiology,
+            University of Southampton, Southampton General Hospital,
+            Southampton, SO16 6YD, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AJ132205.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1037
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="9"
+                     /country="United Kingdom"
+                     /note="group C"
+     gene            43..981
+                     /gene="NSP2"
+                     /locus_tag="HRCV_s9gp1"
+                     /db_xref="GeneID:3773135"
+     CDS             43..981
+                     /gene="NSP2"
+                     /locus_tag="HRCV_s9gp1"
+                     /codon_start=1
+                     /product="nonstructural protein 2"
+                     /protein_id="YP_392488.1"
+                     /db_xref="GOA:Q9PY93"
+                     /db_xref="HSSP:Q03243"
+                     /db_xref="InterPro:IPR003668"
+                     /db_xref="UniProtKB/TrEMBL:Q9PY93"
+                     /db_xref="GeneID:3773135"
+                     /translation="MAELACFVSFSLTEDKVVWYPINKKAVQTMLCAKVEKDQRSNYY
+                     DTILYGVAPPPEFRNRFKTNERYGLDYESDQYTELVNLLADTLNMVSMPTEKFQFDIV
+                     KTVVQVRHLENLLCRIKDVNDILNANVKLRVKAVMIACNLVNETETTPLTESNDIVYQ
+                     DSYFTITKLDYSNHKLLPLMADEYKITINTKTDIPDRNQTAFAAYIRYNFNKFAAISH
+                     GKRHWRLVLHSQLMSHAERLDRKIKSDKKHGRQFSYDDGDMAFVHPGWKTCIGQLCGG
+                     TTFEVAKTSLYSIKPSKTVRTATNKIESDLISMVGN"
+ORIGIN      
+        1 ggcttttaaa ttgcacgtcg gtcccagctg atcactggtg ccatggccga gctagcctgt
+       61 ttcgtttcct tctcactgac tgaagataaa gtagtatggt atccaattaa taaaaaagca
+      121 gtacaaacca tgttgtgtgc taaagtggaa aaagatcaga ggagtaatta ttatgatact
+      181 atactatatg gtgttgcacc accaccggag tttagaaata gatttaaaac aaatgaaaga
+      241 tatggcttag actatgaatc agatcaatat accgaattag ttaatctgtt agcagataca
+      301 ttgaatatgg tgtctatgcc aactgaaaaa tttcaatttg acatagttaa aacagtagtg
+      361 caagttaggc atcttgaaaa tttgctttgc agaataaaag atgttaatga tattttgaat
+      421 gcaaatgtga aattaagagt aaaagcagtt atgattgcat gcaatttagt aaatgaaact
+      481 gaaactactc cattgacaga gagtaatgat attgtatatc aggattcata ttttacgatt
+      541 acaaaattag attattccaa tcataaatta cttccattaa tggctgatga atataaaatt
+      601 acaattaaca caaaaactga tattccagat cgtaatcaaa ctgcatttgc agcttatatt
+      661 agatataatt ttaataaatt tgcagcaata tctcatggta aacggcattg gaggcttgtt
+      721 cttcattctc agttgatgtc tcatgcagaa agattagata gaaaaattaa gtcggataaa
+      781 aaacatggta gacaattctc ttatgatgat ggagatatgg ctttcgtaca tccaggatgg
+      841 aaaacgtgta ttggtcaatt atgtggtggt actacatttg aagttgctaa aacatcacta
+      901 tacagcataa aaccatcaaa aactgtgcgc acagcgacaa ataaaattga aagtgactta
+      961 atttctatgg ttggaaatta ataatgtagt gagtgaaggt tacaagcaat aggaattgca
+     1021 gctgtgcata tgtggct
+//
+

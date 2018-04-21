@@ -1,0 +1,63 @@
+LOCUS       NC_007573                613 bp ds-RNA     linear   VRL 08-DEC-2008
+DEFINITION  Rotavirus C segment 11, complete sequence.
+ACCESSION   NC_007573
+VERSION     NC_007573.1
+DBLINK      BioProject: PRJNA16140
+KEYWORDS    RefSeq; NSP4 protein.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1
+  AUTHORS   Deng,Y., Fielding,P.A., Lambden,P.R., Caul,E.O. and Clarke,I.N.
+  TITLE     Molecular characterization of the 11th RNA segment from human group
+            C rotavirus
+  JOURNAL   Virus Genes 10 (3), 239-243 (1995)
+   PUBMED   8560785
+REFERENCE   2  (bases 1 to 613)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 613)
+  AUTHORS   Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-1995) I.N. Clarke, University of Southampton,
+            Molecular Microbiology, University Medical School, Southampton
+            General Hospital, Tremona Rd, Southampton, UK, SO16 6YD, UK
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from X83967.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..613
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="11"
+     gene            39..491
+                     /locus_tag="HRCV_s11gp1"
+                     /db_xref="GeneID:3844400"
+     CDS             39..491
+                     /locus_tag="HRCV_s11gp1"
+                     /codon_start=1
+                     /product="NSP4 equivalent protein"
+                     /protein_id="YP_392515.1"
+                     /db_xref="UniProtKB/TrEMBL:Q82055"
+                     /db_xref="GeneID:3844400"
+                     /translation="MDFINQTLFSKYTESNVDTIPYLLGLILALTNGSRILRFINSFI
+                     IICKHIVTTSKSAIDKMRKINNSEHNTKNAHEEYEEVMKQIREMRIHMTALFNSLHDD
+                     NVKWRMSESIRREKKHEMKMSDNRNEFKHSHNDTNICEKSGLETEVCL"
+ORIGIN      
+        1 ggctttaaat ttttcagatc actttgctct acgaagtaat ggatttcatc aatcaaactt
+       61 tgttctcaaa gtatactgaa agtaatgtag atacaattcc ttatcttttg ggtcttattc
+      121 ttgcattaac taatggatca agaatactta gattcattaa ctcattcata atcatatgta
+      181 agcacatagt gactacgtct aaatcagcta ttgacaaaat gagaaaaatt aataattcgg
+      241 aacataacac aaagaatgcg catgaagaat atgaagaggt aatgaagcag ataagagaaa
+      301 tgcgtattca tatgactgca ttgtttaata gtttacatga tgataatgtt aaatggagaa
+      361 tgagtgaatc tattcgcaga gaaaagaaac atgaaatgaa gatgagtgat aatagaaatg
+      421 aattcaaaca ttcacataat gatacaaata tatgtgaaaa atctggatta gagacggaag
+      481 tttgtctatg aaatccctgc gcttcctgct ggtgaacgga cgccatcccg ttcatttcta
+      541 gcgagtagag aaaaacattg tacccgaaac gctgagttga ggatcaatgt agatatgaaa
+      601 aattcatgtg gct
+//
+

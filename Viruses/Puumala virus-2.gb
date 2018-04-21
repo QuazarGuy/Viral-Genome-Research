@@ -1,0 +1,106 @@
+LOCUS       NC_005224               1830 bp    cRNA    linear   VRL 20-OCT-2015
+DEFINITION  Puumala virus segment S, complete sequence.
+ACCESSION   NC_005224
+VERSION     NC_005224.1
+DBLINK      BioProject: PRJNA14930
+KEYWORDS    RefSeq; nucleocapsid protein.
+SOURCE      Puumala orthohantavirus
+  ORGANISM  Puumala orthohantavirus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Bunyavirales; Hantaviridae; Orthohantavirus.
+REFERENCE   1
+  AUTHORS   Vapalahti,O., Kallio-Kokko,H., Salonen,E.M.,
+            Brummer-Korvenkontio,M. and Vaheri,A.
+  TITLE     Cloning and sequencing of Puumala virus Sotkamo strain S and M RNA
+            segments: evidence for strain variation in hantaviruses and
+            expression of the nucleocapsid protein
+  JOURNAL   J. Gen. Virol. 73 (Pt 4), 829-838 (1992)
+   PUBMED   1353107
+REFERENCE   2  (bases 1 to 1830)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1830)
+  AUTHORS   Vapalahti,O.P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-JUL-1991) O.P. Vapalahti, Dept. of Virology,
+            University of Helsinki, Haartmaninkatu 3, 00290 Helsinki, FINLAND
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X61035.
+            See also X61034. Sotkamo strain was derived from an infected bank
+            vole (C.glareolus) and adapted to Vero E6 cells, amplified by PCR.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1830
+                     /organism="Puumala orthohantavirus"
+                     /mol_type="viral cRNA"
+                     /strain="Sotkamo"
+                     /db_xref="taxon:1980486"
+                     /segment="S"
+                     /lab_host="Vero E6"
+     gene            43..1344
+                     /locus_tag="PUUVsSgp1"
+                     /db_xref="GeneID:2943083"
+     CDS             43..1344
+                     /locus_tag="PUUVsSgp1"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="NP_941984.1"
+                     /db_xref="GOA:P27313"
+                     /db_xref="UniProtKB/Swiss-Prot:P27313"
+                     /db_xref="GeneID:2943083"
+                     /translation="MSDLTDIQEDITRHEQQLIVARQKLKDAERAVEVDPDDVNKNTL
+                     QARQQTVSALEDKLADYKRRMADAVSRKKMDTKPTDPTGIEPDDHLKERSSLRYGNVL
+                     DVNAIDIEEPSGQTADWYTIGVYVIGFTLPIILKALYMLSTRGRQTVKENKGTRIRFK
+                     DDTSFEDINGIRRPKHLYVSMPTAQSTMKAEELTPGRFRTIVCGLFPTQIQVRNIMSP
+                     VMGVIGFSFFVKDWSERIREFMEKECPFIKPEVKPGTPAQEIEMLKRNKIYFMQRQDV
+                     LDKNHVADIDKLIDYAASGDPTSPDNIDSPNAPWVFACAPDRCPPTCIYVAGMAELGA
+                     FFSILQDMRNTIMASKTVGTAEEKLKKKSSFYQSYLRRTQSMGIQLDQRIILLFMLEW
+                     GKEMVDHFHLGDDMDPELRGLAQALIDQKVKEISNQEPLKI"
+     gene            83..355
+                     /locus_tag="PUUVsSgp2"
+                     /db_xref="GeneID:11293625"
+     CDS             83..355
+                     /locus_tag="PUUVsSgp2"
+                     /experiment="EXISTENCE: Western blot [PMID: 17705180]"
+                     /codon_start=1
+                     /product="nonstructural protein"
+                     /protein_id="YP_004928150.1"
+                     /db_xref="GeneID:11293625"
+                     /translation="MNSNLLLPDKNLRMQREQWKWTQMTLIKTHCKPGNKQCQHWRTN
+                     SQTTREGWQMLCPGKKWILNLLTRLGLNLMTTSRRDQALGMEMSLM"
+ORIGIN      
+        1 tagtagtaga ctccttgaaa agctactacg agaaagtctg gaatgagtga cttgacagat
+       61 atccaagagg atataacccg ccatgaacag caacttattg ttgccagaca aaaacttaag
+      121 gatgcagaga gagcagtgga agtggaccca gatgacgtta ataaaaacac actgcaagcc
+      181 aggcaacaaa cagtgtcagc actggaggac aaactcgcag actacaagag aaggatggca
+      241 gatgctgtgt ccaggaaaaa aatggatact aaacctactg acccgactgg gattgaacct
+      301 gatgaccacc tcaaggagag atcaagcctt aggtatggaa atgtccttga tgtaaatgca
+      361 attgacattg aagaaccaag tggccaaaca gcagattggt atacaattgg agtgtatgtg
+      421 atagggttca cacttcctat catccttaaa gctttataca tgctctcaac gcgtgggaga
+      481 cagactgtaa aggaaaataa ggggacacgt ataaggttta aggatgatac atcatttgaa
+      541 gacatcaatg gcataaggag accaaagcat ttatatgttt ctatgcctac tgcccagtca
+      601 actatgaaag cagaagaact cacacctggc agatttcgca caatagtatg tggtcttttt
+      661 cccactcaga tccaggttcg taacatcatg agtccagtta tgggggtcat tggtttttca
+      721 ttctttgtga aggattggtc tgagagaatc agagagttca tggaaaaaga gtgcccattc
+      781 ataaagcctg aagtaaaacc aggcacacca gcacaggaga ttgagatgtt aaaaagaaat
+      841 aagatctact ttatgcagcg ccaggatgtg cttgacaaaa atcatgtggc agacattgac
+      901 aagttaattg actatgcagc ctctggagac cctacatcac ctgacaacat tgattcgcct
+      961 aatgcaccat gggtctttgc atgtgcacca gaccgatgcc caccaacatg tatctatgtt
+     1021 gcagggatgg cagagcttgg ggcctttttt tcaatattgc aggacatgag aaacacaata
+     1081 atggcatcta agactgttgg cacagcagaa gagaaattaa agaaaaagtc ttccttttac
+     1141 caatcttacc tgcgtcgaac tcaatcaatg ggaattcagc ttgatcaaag aattatcctc
+     1201 ttgtttatgt tggaatgggg caaagagatg gtagatcact tccatcttgg tgatgatatg
+     1261 gatccagagc tcagaggtct tgcacaggca ctgatagatc aaaaggtcaa ggaaatatcg
+     1321 aaccaggaac cactaaagat ataattcctt aattacatat gcactgatta tagatgtagt
+     1381 gagttgttaa catgtagaca tattatatat tcagggatca tatgtgctag ttgtttacta
+     1441 atcaaattat acgggtttat agttgcagtt atcagggtca ttaattaaca aactaatcag
+     1501 ggttaaacta gaaatgtagc attataagta catatcaact aataacaatc aatacaggga
+     1561 tcactaatgg cagttatgaa tatattaaga cattatttta taatcattat ctaattagca
+     1621 ttatgtaggt taaggttgta ttttattatt taatgggccc aaacatgtga aactgagctg
+     1681 tcctttttcc ttttcatcac tttttttctc aaaacttatt catttctacc tcagtgtgct
+     1741 tatatatatg caagtagcat atatataagt acacaatata ctacctcaac atgctgattt
+     1801 cttgattgct tttcaaggag tctactacta
+//
+

@@ -1,0 +1,88 @@
+LOCUS       NC_005236               1769 bp    cRNA    linear   VRL 20-OCT-2015
+DEFINITION  Seoul virus strain 80-39 segment S, complete sequence.
+ACCESSION   NC_005236
+VERSION     NC_005236.1
+DBLINK      BioProject: PRJNA15027
+KEYWORDS    RefSeq.
+SOURCE      Seoul orthohantavirus
+  ORGANISM  Seoul orthohantavirus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Bunyavirales; Hantaviridae; Orthohantavirus.
+REFERENCE   1  (bases 1 to 1769)
+  AUTHORS   Song,J.-W., Moon,J.Y., Baek,L.J. and Song,K.-J.
+  TITLE     Genetic analysis of the full length of S segment of Seoul virus
+            prototype, 80-39 strain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1769)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-AUG-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1769)
+  AUTHORS   Song,J.-W., Moon,J.Y., Baek,L.J. and Song,K.-J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-APR-2003) Department of Microbiology, College of
+            Medicine, Korea University, 5-ka, Anam-dong, Sungbuk-ku, Seoul
+            136-705, Korea
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AY273791.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1769
+                     /organism="Seoul orthohantavirus"
+                     /mol_type="viral cRNA"
+                     /strain="80-39"
+                     /isolation_source="Rattus norvegicus"
+                     /db_xref="taxon:1980490"
+                     /segment="S"
+                     /country="South Korea"
+     gene            43..1332
+                     /locus_tag="SEOVsSgp1"
+                     /db_xref="GeneID:2943086"
+     CDS             43..1332
+                     /locus_tag="SEOVsSgp1"
+                     /codon_start=1
+                     /product="nucleocapsid protein"
+                     /protein_id="NP_942556.1"
+                     /db_xref="GeneID:2943086"
+                     /translation="MATMEEIQREISAHEGQLVIARQKVKDAEKQYEKDPDDLNKRAL
+                     HDRESVAASIQSKIDELKRQLADRIAAGKNIGQDRDPTGVEPGDHLKERSALSYGNTL
+                     DLNSLDIDEPTGQTADWLTIIVYLTSFVVPIILKALYMLTTRGRQTSKDNKGMRIRFK
+                     DDSSYEDVNGIRKPKHLYVSMPNAQSSMKAEEITPGRFRTAVCGLYPAQIKARNMVSP
+                     VMSVVGFLALAKDWTSRIEEWLGAPCKFMAESPIAGSLSGNPVNRDYIRQRQGALAGM
+                     EPKEFQALRQHSKDAGCTLVEHIESPSSIWVFAGAPDRCPPTCLFVGGMAELGAFFSI
+                     LQDMRNTIMASKTVGTADEKLRKKSSFYQSYLRRTQSMGIQLDQRIIVMFMVAWGKEA
+                     VDNFHLGDDMDPELRSLAQILIDQKVKEISNQEPMKL"
+ORIGIN      
+        1 tagtagtaga ctccctaaag agctactcca ctaacaagag aaatggcaac tatggaggaa
+       61 atccagagag aaatcagtgc tcacgagggg cagcttgtga tagcacgcca gaaggtcaag
+      121 gatgcagaaa agcagtatga gaaggatcct gatgacttaa acaagagggc actgcatgat
+      181 cgggagagtg tcgcagcttc aatacaatca aaaattgatg aactgaagcg ccaacttgcc
+      241 gacaggattg cagcagggaa gaacatcggg caagaccggg atcctacagg ggtagagccg
+      301 ggtgatcatc tcaaggaaag atcagcacta agctacggga atacactgga cctgaatagt
+      361 cttgacattg atgaacctac aggacaaaca gctgattggc tgactataat tgtctatcta
+      421 acatcattcg tggtcccgat catcttgaag gcactgtaca tgttaacaac aagaggtagg
+      481 cagacttcaa aggacaacaa ggggatgagg atcagattca aggatgacag ctcatatgag
+      541 gatgtcaatg ggatcagaaa gcctaaacat ctgtatgtgt caatgccaaa cgcccaatcc
+      601 agtatgaagg ctgaagagat aacaccagga agattccgca ctgcagtatg tgggctatat
+      661 cctgcacaga taaaggcaag gaatatggta agccctgtca tgagtgtagt tgggtttttg
+      721 gcactagcaa aagactggac atctagaatt gaagaatggc ttggcgcacc ctgcaagttc
+      781 atggcagagt ctcctattgc tgggagttta tctgggaatc ctgtgaatcg tgactatatc
+      841 agacaaagac aaggtgcact tgcagggatg gagccaaagg aatttcaagc cctcaggcaa
+      901 cattcaaagg atgctggatg tacactagtt gaacatattg agtcaccatc gtcaatatgg
+      961 gtgtttgctg gggcccctga taggtgtcca ccaacatgct tgtttgttgg agggatggct
+     1021 gagttaggtg ccttcttttc tatacttcag gatatgagga acacaatcat ggcttcaaaa
+     1081 actgtgggca cagctgatga aaagcttcga aagaaatcat cattctatca atcatacctc
+     1141 agacgcacac aatcaatggg aatacaactg gaccagagga taattgttat gtttatggtt
+     1201 gcctggggaa aggaggcagt ggacaacttc catctcggtg atgacatgga tccagagctt
+     1261 cgtagcctgg ctcagatctt gattgaccag aaagtgaagg aaatctcgaa ccaggagcct
+     1321 atgaaattat aagcacataa atatgtaatc aatactaact ataggttaag aaatactaat
+     1381 cattagttaa taagaataca gatttattga ataatcatat taaataatta ggtaagttaa
+     1441 atattattta gttaagttag ctaattgatt tatatgatta tcacaattga atgtaatcat
+     1501 aagcacaatc actgccatgt ataatcacgg gtatacgggt ggttttcata tggggaacag
+     1561 ggtgggctta gggccaggtc accttaagtg accttttttt gtatatatgg atgtagattt
+     1621 caattgatcg aatactaatc ctactgtcct cttttctttt cctttctcct tctttactaa
+     1681 caacaacaaa ctacctcaca accttctacc tcaatatata ctacctcatt aagttgtttc
+     1741 cttttgtctt tttagggagt ctactacta
+//
+

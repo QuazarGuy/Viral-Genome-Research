@@ -1,0 +1,180 @@
+LOCUS       NC_002076               3852 bp ss-DNA     circular VRL 28-APR-2010
+DEFINITION  Torque teno virus 1, complete genome.
+ACCESSION   NC_002076
+VERSION     NC_002076.2
+DBLINK      BioProject: PRJNA15247
+KEYWORDS    RefSeq.
+SOURCE      Torque teno virus 1
+  ORGANISM  Torque teno virus 1
+            Viruses; ssDNA viruses; Anelloviridae; Alphatorquevirus.
+REFERENCE   1  (sites)
+  AUTHORS   Kamahora,T., Hino,S. and Miyata,H.
+  TITLE     Three spliced mRNAs of TT virus transcribed from a plasmid
+            containing the entire genome in COS1 cells
+  JOURNAL   J. Virol. 74 (21), 9980-9986 (2000)
+   PUBMED   11024126
+REFERENCE   2  (bases 1 to 3852)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3852)
+  AUTHORS   Miyata,H., Kamahora,T. and Hino,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAR-2000) Shigeo Hino, Faculty of Medicine, Tottori
+            University, Department of Virology; 86 Nishi, Yonago, Tottori
+            683-8503, Japan (E-mail:hino@grape.med.tottori-u.ac.jp,
+            Tel:+81-859-34-8021, Fax:+81-859-34-8133)
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AB041007.
+            On Apr 3, 2003 this sequence version replaced NC_002076.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3852
+                     /organism="Torque teno virus 1"
+                     /mol_type="genomic DNA"
+                     /isolate="VT416"
+                     /db_xref="taxon:687340"
+                     /clone="pTZVT416"
+                     /note="genotype 1;
+                     vector:pTZ18U"
+     regulatory      85..90
+                     /regulatory_class="TATA_box"
+     regulatory      98..103
+                     /regulatory_class="CAAT_signal"
+     intron          186..276
+     gene            353..3077
+                     /gene="orf2/5"
+                     /locus_tag="TTVgp1"
+                     /db_xref="GeneID:1449577"
+     CDS             join(353..711,2564..3077)
+                     /gene="orf2/5"
+                     /locus_tag="TTVgp1"
+                     /codon_start=1
+                     /product="VP3"
+                     /protein_id="NP_817120.1"
+                     /db_xref="GeneID:1449577"
+                     /translation="MWTPPRNDQHYLNWQWYSSILSSHAAMCGCPDAVAHFNHLASVL
+                     RAPQNPPPPGPQRNLPLRRLPALPAAPEAPGDRAPWPMAGGAEGEDGGAGGDADHGGA
+                     AGGPEDADLLDAVAAAETRPQETQEGHRGVPLQPRRGAKRKLTFPPSQAPQTSPPVGR
+                     LAAGGKRVAKLRGRDTDRLPAAQAAAAATANPGSQTQTPLQPSPKNPTKSRYQPYLVT
+                     KGGGSSILISNSTINMFGDPKPYNPSSNDWKEEYEACRIWDRPPRGNLRDTPYYPWAP
+                     KENQYRVNFKLGFQ"
+     gene            353..2875
+                     /gene="orf2/4"
+                     /locus_tag="TTVgp2"
+                     /db_xref="GeneID:1449576"
+     CDS             join(353..711,2374..2875)
+                     /gene="orf2/4"
+                     /locus_tag="TTVgp2"
+                     /codon_start=1
+                     /product="VP2"
+                     /protein_id="NP_817121.1"
+                     /db_xref="GeneID:1449576"
+                     /translation="MWTPPRNDQHYLNWQWYSSILSSHAAMCGCPDAVAHFNHLASVL
+                     RAPQNPPPPGPQRNLPLRRLPALPAAPEAPGDRAPWPMAGGAEGEDGGAGGDADHGGA
+                     AGGPEDADLLDAVAAAETLLEIPAKKPTPRAIESLEAYKSLTRNTTHRNSHSIPGTSD
+                     VVSLARKLFRECNNNQQLLTFFQQATRDPGGTPRCTTPAKKGSKKKAYFSPQSSSSDE
+                     SPRGKTRSRRKAGRKAQRKRHRPSPSSSSSSCSNSESWESNSDSSSTKSKKSNKIKIS
+                     TLPCYQGGGI"
+     gene            589..2901
+                     /gene="orf1"
+                     /locus_tag="TTVgp3"
+                     /db_xref="GeneID:1449575"
+     CDS             589..2901
+                     /gene="orf1"
+                     /locus_tag="TTVgp3"
+                     /codon_start=1
+                     /product="VP1"
+                     /protein_id="NP_817122.1"
+                     /db_xref="GeneID:1449575"
+                     /translation="MAYGWWRRRRRRWRRWRRRPWRRRWRTRRRRPARRRGRRRNVRR
+                     RRRGGRWRRRYRRWKRKGRRRKKAKIIIRQWQPNYRRRCNIVGYIPVLICGENTVSRN
+                     YATHSDDTNYPGPLGGGMTTDKFTLRILYDEYKRFMNYWTASNEDLDLCRYLGVNMYF
+                     FRHPDVDFIIKINTMPPFLDTELTAPSIHPGMLALDKRARWIPSLKSRPGKKHYIKIR
+                     VGAPKMFTDKWYPQTDLCDMVLLTVYATAADMQYPFGSPLTDSVVVNFQVLQSMYDQN
+                     ISILPDQKSEREKLLTQITDYIPFYNTTQTIAQLKPFIDAGNITPNTPATTWGSYINT
+                     TKFTTAATTTYTYPGTTTTTVTMLTCNDSWYRGTVYNDKIKNLPKQAATLYSKATKTL
+                     LGNTFTTDDHTLEYHGGLYSSIWLSPGRSYFETTGAYTDIKYNPFTDRGEGNMLWIDW
+                     LSKKNMNYDKVQSKCLISDLPLWAAAYGYVEFCAKSTGDQNIHMNARLLIRSPFTDPQ
+                     LLVHTDPTKGFVPYSLNFGNGKMPGGSSNVPIRMRAKWYPTLFHQQEVLEALAQSGPF
+                     AYHSDIKKVSLGMKYRFKWIWGGNPVRQQVVRNPCKETHSSGNRVPRSLQIVDPKYNS
+                     PELTFHTWDFRRGLFGPKAIQRMQQQPTTTDIFSAGHKRPRRDTEVYHSSQEGEQKES
+                     LLFPPVKLLRRVPPWEDSQQEESGSQSSEEETQTVSQQLKQQLQQQRILGVKLRLLFN
+                     QVQKIQQNQDINPTLLPRGGDLASLFQIAP"
+     intron          712..2563
+                     /gene="orf1"
+                     /locus_tag="TTVgp3"
+     intron          712..2373
+                     /gene="orf1"
+                     /locus_tag="TTVgp3"
+     regulatory      3073..3078
+                     /regulatory_class="polyA_signal_sequence"
+ORIGIN      
+        1 attttgctac gtcactaacc acgtgacacc cacaggccaa ccgaatgcta tgtcatccat
+       61 ttcctgggcc gggtctacgt cctcatataa gtaactgcac ttccgaatgg ctgagttttc
+      121 cacgcccgtc cgcagcggtg aagccacgga gggagatctc cgcgtcccga gggcgggtgc
+      181 cgaaggtgag tttacacacc gaagtcaagg ggcaattcgg gctcgggact ggccgggcta
+      241 tgggcaaggc tctgaaaaaa gcatgtttat tggcaggcat tacagaaaga aaagggcgct
+      301 gtcactgcgt gctgtgcgaa caacaaacaa ggcttgcaaa ctactaatag taatgtggac
+      361 cccacctcgc aatgatcaac actaccttaa ctggcaatgg tactcaagta tacttagctc
+      421 ccacgctgct atgtgcgggt gtcccgacgc tgtcgctcat tttaatcatc ttgcttctgt
+      481 gcttcgtgcc ccgcaaaacc caccccctcc cggtccccag cgaaacctgc ccctccgacg
+      541 gctgccggct ctcccggctg cgccagaggc gcccggagat agagcaccat ggcctatggc
+      601 tggtggcgcc gaaggagaag acggtggcgc aggtggagac gcagaccatg gaggcgccgc
+      661 tggaggaccc gaagacgcag acctgctaga cgccgtggcc gccgcagaaa cgtaaggaga
+      721 cgccgcagag gagggaggtg gaggaggaga tataggagat ggaaaagaaa gggcaggcgc
+      781 agaaaaaaag ctaaaataat aataagacaa tggcaaccaa actacagaag gagatgtaac
+      841 atagtaggct acatccctgt actaatatgt ggcgaaaata ctgtcagcag aaactatgcc
+      901 acacactcag acgataccaa ctacccagga cccttggggg ggggtatgac tacagacaaa
+      961 tttactttaa gaattctgta tgacgagtac aaaaggttta tgaactactg gacagcatct
+     1021 aacgaagacc tagacctttg tagatatcta ggagtaaaca tgtacttttt cagacaccca
+     1081 gatgtagatt ttatcataaa aattaatacc atgcctcctt ttctagacac agaacttaca
+     1141 gcccctagca tacacccagg catgctagcc ctagacaaaa gagcaagatg gatacctagc
+     1201 ttaaaatcta gaccgggaaa aaaacactat attaaaataa gagtaggggc accaaaaatg
+     1261 ttcactgata aatggtaccc ccaaacagat ctttgtgaca tggtgcttct aactgtctat
+     1321 gcaaccgcag cggatatgca atatccgttc ggctcaccac taactgactc tgtggttgtg
+     1381 aacttccagg ttctgcaatc catgtatgat caaaacatta gcatattacc agaccaaaaa
+     1441 tcagaaagag aaaaactact tactcagata acagattaca ttccctttta taataccaca
+     1501 caaactatag cccaattaaa gccatttata gacgcaggca atataacacc aaacacacca
+     1561 gcaacaacat ggggatcata cataaacaca accaagttta ctacagcagc cacaacaact
+     1621 tatacatatc caggcaccac cacaaccaca gtaactatgt taacctgtaa tgactcctgg
+     1681 tacagaggaa cagtatataa cgataaaatt aaaaatttac caaaacaagc agctacatta
+     1741 tactcaaaag caacaaaaac cttgctagga aacaccttca caactgacga ccacacacta
+     1801 gaataccatg gaggactgta cagctcaata tggctatccc ctggtagatc ttactttgaa
+     1861 acaacaggag catatacaga cataaagtac aatccattca cagacagagg agaaggcaac
+     1921 atgttatgga tagactggct aagcaaaaaa aacatgaact atgacaaagt acaaagtaaa
+     1981 tgcttaatat cagacctacc tctatgggca gcagcatatg gatatgtaga attttgtgca
+     2041 aaaagtacag gagaccaaaa catacacatg aatgccaggc tactaataag aagtcccttt
+     2101 acagacccac aactactagt acacacagac cccacaaaag gctttgttcc ttactcttta
+     2161 aactttggaa atggtaaaat gccaggaggt agtagtaatg tgcctattag aatgagagct
+     2221 aaatggtatc caacattatt tcaccagcaa gaagtactag aggccttagc acagtcaggc
+     2281 ccctttgcat accactcaga cattaaaaaa gtatctctgg gtatgaaata ccgttttaag
+     2341 tggatctggg gtggaaaccc cgttcgccaa caggttgtta gaaatccctg caaagaaacc
+     2401 cactcctcgg gcaatagagt ccctagaagc ttacaaatcg ttgacccgaa atacaactca
+     2461 ccggaactca cattccatac ctgggacttc agacgtggtc tctttggccc gaaagctatt
+     2521 cagagaatgc aacaacaacc aacaactact gacatttttt cagcaggcca caagagaccc
+     2581 aggagggaca ccgaggtgta ccactccagc caagaagggg agcaaaaaga aagcttactt
+     2641 ttccccccag tcaagctcct cagacgagtc cccccgtggg aagactcgca gcaggaggaa
+     2701 agcgggtcgc aaagctcaga ggaagagaca cagaccgtct cccagcagct caagcagcag
+     2761 ctgcagcaac agcgaatcct gggagtcaaa ctcagactcc tcttcaacca agtccaaaaa
+     2821 atccaacaaa atcaagatat caaccctacc ttgttaccaa ggggggggga tctagcatcc
+     2881 ttatttcaaa tagcaccata aacatgtttg gtgaccccaa accttacaac ccttccagta
+     2941 atgactggaa agaggagtac gaggcctgta gaatatggga cagacccccc agaggcaacc
+     3001 taagagatac cccttactac ccctgggccc ccaaggagaa ccagtaccgt gtaaacttta
+     3061 aacttggatt tcaataaagc taggccgtgg gactttcact tgtcggtgtc tgcttataaa
+     3121 agtaactaag cactccgagc gaagcgagga gtgcgaccct tgggggctca acgccttcgg
+     3181 agccgcgcgc tacgccttcg gctgcgcgcg gcacctcaga cccccgctcg tgctgacacg
+     3241 ctcgcgcgtg tcagaccact tcgggctcgc gggggtcggg aaatttacta aacagactcc
+     3301 gagttgccat tggactcagg agctatgaat cagtaacgaa agtgagtggg gccagacttc
+     3361 gccataaggc ctttatcttc ttgccatttg tcagtaacag gggtcgccat agacttcggc
+     3421 ctccatttta ccttgtaaaa actaccaaaa tggccgttcc agtgacgtca cagccgccat
+     3481 tttaagtagc tgacgtcaag gattgacgta aaggttaaag gtcatcctcg gcggaagcta
+     3541 cacaaaatgg tggacaacat cttccgggtc aaaggtcgtc catacgtcac aagtcacgtg
+     3601 gaggggaccc gctgtaaccc ggaagtaggc cccgtcacgt gacttaccac gtgtgtacac
+     3661 gtcaccgccg ccattttgtt ttacaaaatg gctgacttcc ttcctctttt ttaaaaaaag
+     3721 gcgccaaaaa accgtcggcg ggggggccgc gcgctgcgcg cgcggccccc ggggggaggc
+     3781 attgcctccc ccccccgcgc acatgcgcgc gggtcccccc cctccggggg gctccgcccc
+     3841 ccggcccccc cc
+//
+

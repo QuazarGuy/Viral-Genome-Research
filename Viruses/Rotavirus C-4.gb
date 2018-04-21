@@ -1,0 +1,102 @@
+LOCUS       NC_007574               2166 bp ds-RNA     linear   VRL 10-FEB-2015
+DEFINITION  Rotavirus C segment 4, complete sequence.
+ACCESSION   NC_007574
+VERSION     NC_007574.1
+DBLINK      BioProject: PRJNA16140
+KEYWORDS    RefSeq; guanylyltransferase; VP3 gene.
+SOURCE      Rotavirus C
+  ORGANISM  Rotavirus C
+            Viruses; dsRNA viruses; Reoviridae; Sedoreovirinae; Rotavirus.
+REFERENCE   1
+  AUTHORS   Samarbaf-Zadeh,A.R., Lambden,P.R., Green,S.M., Deng,Y., Caul,E.O.
+            and Clarke,I.N.
+  TITLE     The VP3 gene of human group C rotavirus
+  JOURNAL   Virus Genes 13 (2), 169-173 (1996)
+   PUBMED   8972570
+REFERENCE   2  (bases 1 to 2166)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-NOV-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2166)
+  AUTHORS   Clarke,I.N.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-MAR-1996) I.N. Clarke, Dept of Molecular
+            Microbiology, University Medical School, Southampton Gerneral
+            Hospital, Southampton, SO16 6YD, UK
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X96697.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2166
+                     /organism="Rotavirus C"
+                     /mol_type="genomic RNA"
+                     /strain="Bristol"
+                     /db_xref="taxon:36427"
+                     /segment="4"
+     gene            1..2166
+                     /gene="VP3"
+                     /locus_tag="HRCV_s4gp1"
+                     /db_xref="GeneID:3773133"
+     CDS             55..2136
+                     /gene="VP3"
+                     /locus_tag="HRCV_s4gp1"
+                     /codon_start=1
+                     /product="guanylyltransferase"
+                     /protein_id="YP_392516.1"
+                     /db_xref="GOA:Q82041"
+                     /db_xref="UniProtKB/TrEMBL:Q82041"
+                     /db_xref="GeneID:3773133"
+                     /translation="MRVLGLFERGNNLNFADTYVYTWNQQYSYHENAFLISNQVATTI
+                     ILYLDGININEVNKAFELLNSNGIPALIIKPDHIGIFTSSNFTYDWQYKIVYFHEYTY
+                     YKNNEFIVSDEFWLYTNINELLPYKILYYERGMRELYAGREYTLYNTATDDDILYKYI
+                     YEKDSIMNGTDYKKLYDTNSVKNFVHFMRLLRMRFAVPFDQLSNRITRSRVFSKSRIH
+                     IGLRNESIPQALDNIHSQWINYSANGIVISELKGLGSYSEKKISEFGIGQFKNYMNFL
+                     TLMFYIKNMKKKPSCTIIGAAPGYWISSMKKYFTIVTYDNKEVDSTEHHNRYFTDDDI
+                     VNVKTNGVYIDVRSEFKTNDWRQRRKLIEEETIKWLEISYKLLENKRVEAILLKMTAM
+                     DGEIPDGYCVHSPTTYRKSEYYLLIDKHIIKRQKIKVTKSLMYNAINTIYSDNVFISG
+                     KYSLRGKTEGVLALYCLSNTINQKEKVIQYANSFSGTCMTVRLNNTYEVDKIIDFKTN
+                     SDHTFLPSDFTCSLNTILTSYRGYAGIFGYAITKDLKSNGNNHIYIIPNARDENNFDT
+                     FGSHLGLSRYSHSKRFSESATTMSGYIFRDMVSGKENMQDTDKDNYASGHVFNAIAHY
+                     RFDYTYDIVGWLRLHKTGQFKVKSDIYKEHTDSEIRNAIESAYVYYLLDGDKVGEKYS
+                     KKMMEIWEVQV"
+ORIGIN      
+        1 ggcaaaaaaa gcccaacacg caatgcgttt attgcaattc agttcactgg tgcaatgagg
+       61 gtattggggc tttttgaacg tgggaataac ttgaatttcg cagataccta cgtatataca
+      121 tggaaccaac agtactcgta tcatgaaaat gcattcctaa tttcaaatca agtagctacg
+      181 acaatcatat tatatctgga tggtataaac ataaatgaag tcaataaagc atttgaatta
+      241 ttgaactcaa atggtatacc agcacttatt ataaaaccag atcatattgg aatatttacg
+      301 tcatcaaact ttacatatga ttggcaatac aaaatagtat attttcatga gtatacatat
+      361 tacaaaaata atgaatttat tgtgagtgat gaattctggt tatatactaa tataaatgaa
+      421 ttattaccat ataaaatact ttattatgaa cgaggaatga gagaattata tgctggtaga
+      481 gaatatacat tgtataatac agcaacagat gacgatattt tatataaata tatctatgaa
+      541 aaagattcga ttatgaatgg tactgactat aaaaaattat atgacactaa ttctgttaaa
+      601 aactttgtac attttatgag attattacga atgagatttg cagttccatt tgatcaatta
+      661 tcaaatagaa ttactagatc tcgtgttttc tctaaaagca gaattcatat tggattacgt
+      721 aatgaatcaa taccacaggc tttggataat atacactcac agtggattaa ttattctgca
+      781 aatggaatag taatttcaga attaaaagga ttagggagtt actctgaaaa aaagataagt
+      841 gaatttggta ttggacaatt taaaaattat atgaattttc ttactttaat gttttatatt
+      901 aaaaatatga aaaagaaacc atcgtgtaca ataattggtg cagcgcctgg ttattggatt
+      961 tcatcaatga aaaaatattt taccatagta acatacgaca acaaggaagt cgatagtaca
+     1021 gaacatcata atagatactt cacagatgat gatatcgtta acgtgaaaac aaatggtgtt
+     1081 tatattgatg tgagatctga atttaaaaca aatgactggc gacaaagaag aaagttaata
+     1141 gaagaagaaa cgataaaatg gttggaaatt tcttataaat tactagaaaa taaacgagta
+     1201 gaagcaatat tattgaaaat gacagcaatg gatggagaga tacctgatgg atattgtgta
+     1261 cattctccta caacataccg aaaaagtgaa tactatttac tcattgataa acatatcatt
+     1321 aaaagacaaa aaataaaagt tactaaatcc ttaatgtata atgccataaa tactatatac
+     1381 tcagataatg tattcatttc aggtaaatat tcattaaggg gcaaaactga aggagtatta
+     1441 gctttatact gtttatcgaa tacaataaat caaaaagaga aggtgataca gtacgcgaat
+     1501 tcattttcag gaacatgtat gactgtaaga ttaaataata catatgaagt tgacaaaata
+     1561 atagatttta aaacaaattc ggatcatact tttctaccat cagattttac atgctcatta
+     1621 aacacaatct tgacttcata tagagggtat gctggaatat ttgggtatgc aataacaaaa
+     1681 gatctgaagt ccaatggaaa caatcatata tacatcattc caaatgcaag agatgagaat
+     1741 aatttcgata cttttgggtc acatttagga ttatcaagat actcacattc taaaagattt
+     1801 tcagaatcag caacgactat gtcaggatat atatttagag atatggttag tggaaaagag
+     1861 aatatgcagg atacggataa agataattat gcatccggcc atgtttttaa tgctatagca
+     1921 cattatagat ttgattatac atatgatatt gtaggatggc ttagattgca taagactggt
+     1981 caatttaaag tcaaatcaga tatatacaaa gaacatacag atagtgaaat acggaatgca
+     2041 attgaatcag cctatgtata ttatttatta gatggtgata aagttggtga gaaatattca
+     2101 aagaaaatga tggagatttg ggaagttcaa gtgtgaggct aatcacctct accatatgat
+     2161 gtggct
+//
+

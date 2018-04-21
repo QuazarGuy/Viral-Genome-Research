@@ -1,0 +1,111 @@
+LOCUS       NC_006318               1869 bp ss-RNA     linear   VRL 20-OCT-2015
+DEFINITION  Toscana virus segment S, complete sequence.
+ACCESSION   NC_006318
+VERSION     NC_006318.1
+DBLINK      BioProject: PRJNA15053
+KEYWORDS    RefSeq; non structural protein; nucleoprotein.
+SOURCE      Sandfly fever Naples virus (SFNV)
+  ORGANISM  Sandfly fever Naples virus
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Bunyavirales; Phenuiviridae; Phlebovirus.
+REFERENCE   1  (bases 1 to 1869)
+  AUTHORS   Giorgi,C., Accardi,L., Nicoletti,L., Gro,M.C., Takehara,K.,
+            Hilditch,C., Morikawa,S. and Bishop,D.H.
+  TITLE     Sequences and coding strategies of the S RNAs of Toscana and Rift
+            Valley fever viruses compared to those of Punta Toro, Sicilian
+            Sandfly fever, and Uukuniemi viruses
+  JOURNAL   Virology 180 (2), 738-753 (1991)
+   PUBMED   1846496
+REFERENCE   2  (bases 1 to 1869)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1869)
+  AUTHORS   Bishop,D.H.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-1990) Bishop D.H.L., NERC Inst. of Virology and
+            Enviromental Microbiology, Mansfield Road, Oxford OX1 3SR, UK
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from X53794.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1869
+                     /organism="Sandfly fever Naples virus"
+                     /mol_type="genomic RNA"
+                     /strain="Toscana"
+                     /db_xref="taxon:206160"
+                     /segment="S"
+     gene            1..1869
+                     /locus_tag="SFNVsSgp1"
+                     /db_xref="GeneID:3077269"
+     mRNA            <1..>1869
+                     /locus_tag="SFNVsSgp1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="viral sRNA NS and N protein"
+                     /db_xref="GeneID:3077269"
+     CDS             57..1007
+                     /locus_tag="SFNVsSgp1"
+                     /codon_start=1
+                     /product="viral sRNA NS protein"
+                     /protein_id="YP_089667.1"
+                     /db_xref="UniProtKB/Swiss-Prot:P21699"
+                     /db_xref="GeneID:3077269"
+                     /translation="MQSRAVILKYRSGSGHKRSLPRFYIDCDLDTFDFEKDCSLIENE
+                     FPIYINNYKVVYKSKPTLSHFLIEKEFPAVLGPGMISAVRTRLYEPTMRELYQESIHQ
+                     LKRSNKKYLLSALRWPTGIPTLEFIDYYFEELLFLSEFDPGSIQRYLKLLVKASGLYN
+                     STNEEQIVEIHRRVLIEGKKHGLTAFDLPGNDILGDICVVQAARVTRLVAKTFSKMTR
+                     DTHLMIYFSISPVELVLSKLDKKGDKRAKAKGLMSMSAARSYDYFMRTDLGFRETALS
+                     TFWAKDWPTPQETILSDKRCLKEDMRVTKWLPSPPHYPPL"
+     gene            complement(1070..1831)
+                     /locus_tag="SFNVsSgp2"
+                     /db_xref="GeneID:3077270"
+     CDS             complement(1070..1831)
+                     /locus_tag="SFNVsSgp2"
+                     /codon_start=1
+                     /product="viral sRNA N protein"
+                     /protein_id="YP_089668.1"
+                     /db_xref="GOA:P21701"
+                     /db_xref="UniProtKB/Swiss-Prot:P21701"
+                     /db_xref="GeneID:3077270"
+                     /translation="MSDENYRDIALAFLDESADSGTINAWVNEFAYQGFDPKRIVQLV
+                     KERGTAKGRDWKKDVKMMIVLNLVRGNKPEAMMKKMSEKGASIVANLISVYQLKEGNP
+                     GRDTITLSRVSAAFVPWTVQALRVLSESLPVSGTTMDAIAGVTYPRAMMHPSFAGIID
+                     LDLPNGAGATIADAHGLFMIEFSKTINPSLRTKQANEVAATFEKPNMAAMSGRFFTRE
+                     DKKKLLIAVGIIDEDLVLASAVVRSAEKYRAKVGK"
+ORIGIN      
+        1 acacaaagac ctcccgtatt gctaaaccag agctagtaat agacttctag acagccatgc
+       61 aatccagagc tgtcatcttg aagtatagat ctggttcagg ccacaagagg tctttgccca
+      121 ggttctacat agactgtgat ttggacacct ttgattttga gaaggattgc tctctgattg
+      181 agaatgagtt ccccatttac ataaacaatt ataaggtggt ctataagtca aagccaactc
+      241 tctcacattt cctcattgag aaggagtttc ctgctgtgct ggggcctggt atgatcagtg
+      301 cagttcgaac cagactttac gagccaacta tgagagagct ctaccaggaa tcgattcacc
+      361 aactaaagag gagcaacaag aaataccttt tgtctgctct caggtggccc acagggattc
+      421 ctactctaga gtttatagac tattacttcg aggagctcct gttcttgtca gagtttgacc
+      481 cggggtctat ccagagatac ctgaaattac tggttaaggc ctctgggctt tacaactcca
+      541 ctaatgagga gcagatagtg gagattcaca gacgagtgct catagaaggc aaaaagcacg
+      601 gattgactgc ttttgatctc ccaggaaatg acatccttgg agacatctgt gtggtccaag
+      661 cagcacgggt gacaagactg gttgctaaga cattctctaa gatgaccaga gacacccatc
+      721 tgatgatata cttctcgata agcccagttg agttggtttt gagtaaactt gataagaaag
+      781 gggacaagag ggctaaagca aaagggttga tgtctatgag tgccgctagg tcttatgact
+      841 attttatgag aactgacttg ggattcagag agactgctct ttccaccttt tgggctaagg
+      901 actggcctac cccacaagag accattctat ctgacaaacg atgccttaaa gaagacatga
+      961 gagtgacaaa gtggctgcct agtccccccc actacccacc cttatgatcc cacccctcag
+     1021 atttccccaa tccccatccc aatcctaatt cccctaaccc cctggcagct cacttgccaa
+     1081 ccttggcgcg atacttctca gcactcctca ctactgcaga cgccagaaca agatcctcat
+     1141 caatgatccc cactgctatg agcagcttct tcttatcttc tctggtgaag aatcgtccac
+     1201 tcatggcggc catattgggc ttttcaaatg tggcagccac ttcattagcc tgttttgttc
+     1261 tcagagatgg atttatggtc tttgagaact caatcatgaa cagcccatga gcatcagcaa
+     1321 tagtggctcc agctccattc ggaaggtcca gatcaatgat cccagcaaag ctagggtgca
+     1381 tcatggctct tgggtaggtt acaccagcaa tggcatccat agtggtccca gacacgggca
+     1441 gggattctga caggacacgt agtgcctgaa cagtccacgg aacaaatgcg gctgacaccc
+     1501 ttgacagagt gatggtgtcc ctgccagggt tcccttcttt caactggtag actgaaatca
+     1561 ggttggccac aatagaagca cccttctctg acatcttctt catcatggcc tctggcttgt
+     1621 ttcccctgac aaggttcagc acaatcatca tcttcacatc tttcttccag tccctgccct
+     1681 ttgccgttcc tctctccttg accaactgaa caatgcgctt tggatcaaac ccttggtaag
+     1741 caaactcatt cacccatgca ttgatggtcc cagaatctgc agactcatca agaaaagcaa
+     1801 gagcaatatc gcgataattc tcgtctgaca tgttgatagc ttttgtttaa tacacgggaa
+     1861 tctctgtgt
+//
+
