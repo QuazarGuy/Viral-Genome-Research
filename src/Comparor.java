@@ -1,9 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Arrays;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Set;
 
 public class Comparor {
 public static void main(String args[]) throws FileNotFoundException {
@@ -40,11 +39,14 @@ public static void main(String args[]) throws FileNotFoundException {
 		counter.put(keys[i], counts[i]);
 	}
 
-	
+	File output=new File("outputCounted.txt");
+	PrintWriter pw=new PrintWriter(output);
 	for(String s:counter.keySet()) {
-		if(counter.get(s)>8)
-		System.out.println(counter.get(s)+"\t"+s);
+		if(counter.get(s)>8) {
+			pw.println(counter.get(s)+"\t"+s+"\n");
+			System.out.print(counter.get(s)+"\t"+s+"\n");
+		}	
 	}
-	
+	pw.close();
 }
 }

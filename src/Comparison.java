@@ -18,14 +18,18 @@ import java.util.regex.Pattern;
 public class Comparison {
 
 	public static final int MAX_DISTANCE=0;
+	public static final int MIN_AMINO_ACIDS=7;
+	
 	public static void main(String[] args) throws FileNotFoundException, InterruptedException {
+		
+		// Reads proteins from file to an arraylist of strings 
 		Pattern sequencep=Pattern.compile("translation=\\\"(.*?)\\\"");
-		ArrayList<String>strings=new ArrayList<String>();
+		ArrayList<String> strings=new ArrayList<String>();
 		File dir=new File("Viruses/");
 		int num=0;
 		for(File f:dir.listFiles()) {
-			//if(num++>30)
-			//	break;
+//			if(num++>30)
+//				break;
 			Scanner s=new Scanner(f);
 			String buffer="";
 			while(s.hasNextLine()) {
@@ -40,17 +44,15 @@ public class Comparison {
 			strings.add(full.toUpperCase().replaceAll("\n", "").replaceAll("[ 1-9]",""));
 			System.out.println(f.getName());
 			strings.add(f.getName());
-
 		}
-		
-		
-		
-		String[]genes=strings.toArray(new String[0]);
+
+		String[]genes=strings.toArray(new String[0]); // Even indices are proteins, the next odd is the virus name
+
 		
 		/*for(int i=0;i<genes.length;i++) {
 			genes[i]=genes[i].toUpperCase().replaceAll("\n", "").replaceAll("[ 1-9]","");
 		}*/
-		
+	
 		//ThreadPoolExecutor pool=new ThreadPoolExecutor();
 		ConcurrentLinkedQueue<List<String>> results=new ConcurrentLinkedQueue<List<String>>();
 		ExecutorService pool=Executors.newCachedThreadPool();
@@ -63,7 +65,7 @@ public class Comparison {
 				pool.execute(()->{
 					List<String> matches=getSequences(genes[CurrentI],genes[CurrentJ]);
 					if(matches.size()>0) {
-						//System.out.printf("%s,%s,%s\n",genes[CurrentI+1],genes[CurrentJ+1],matches.toString());
+//						System.out.printf("%s,%s,%s\n",genes[CurrentI+1],genes[CurrentJ+1],matches.toString());
 						matches.add(0, genes[CurrentI+1]);
 						matches.add(0, genes[CurrentJ+1]);
 						results.offer(matches);
@@ -80,17 +82,16 @@ public class Comparison {
 		while(!results.isEmpty()) {
 			pw.println(results.poll());
 		}
+	}	
 		
 		
 		
 		
-		
-		
-	}
+
 	
 	
 	static List<String> getSequences(String a, String b){
-		return getSequences(a,b,7);
+		return getSequences(a,b,MIN_AMINO_ACIDS);
 	}
 	
 	static List<String> getSequences(String g1, String g2,int max){
