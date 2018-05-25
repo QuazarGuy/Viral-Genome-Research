@@ -1,3 +1,4 @@
+package algorithms;
 import java.util.HashMap;
 
 public class NGramLibrary {

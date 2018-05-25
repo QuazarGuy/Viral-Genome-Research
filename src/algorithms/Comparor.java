@@ -1,3 +1,4 @@
+package algorithms;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
@@ -7,7 +8,7 @@ import java.util.Set;
 
 public class Comparor {
 public static void main(String args[]) throws FileNotFoundException {
-	Scanner in=new Scanner(new File("output.txt"));
+	Scanner in=new Scanner(new File("outputSeperated.txt"));
 	
 	HashMap<String,Integer> counter=new HashMap<String,Integer>();
 	while(in.hasNextLine()) {
