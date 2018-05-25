@@ -78,8 +78,8 @@ public class Comparison {
 		
 		int num=0;
 		for(File f:dir.listFiles()) {
-			if(num++>30)
-				break;
+			//if(num++>30)
+				//break;
 			
 			
 			byte[] chars = Files.readAllBytes(f.toPath());

@@ -8,7 +8,8 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.sql.Connection;
     import java.sql.DriverManager;
-    import java.sql.ResultSet;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
     import java.sql.SQLException;
     import java.sql.Statement;
 import java.util.ArrayList;
@@ -156,8 +157,39 @@ public class DatabaseDumper {
 	
 	
 	
-	public static void main(String[] args) throws IOException 
-    {
+	public static void main(String[] args) throws IOException, SQLException {
+		Connection connection = DriverManager.getConnection("jdbc:sqlite:VirusDb.sqlite");
+        Statement statement = connection.createStatement();
+        statement.setQueryTimeout(30);  // set timeout to 30 sec.
+        File dir=new File("Viruses/");
+        for(File f : dir.listFiles()) {
+        	String file=f.getName();
+        	int dash=file.lastIndexOf('-');
+        	String name=file.substring(0, dash).replace('~', '/').toLowerCase();
+        	int number=Integer.parseInt(file.substring(dash+1,file.length()-3));
+        	
+        	
+byte[] chars = Files.readAllBytes(f.toPath());
+
+			
+			String buffer= new String(chars);
+			
+        	if(!statement.executeQuery("Select * from virus where name ='"+name+"'").next()) {
+        		System.out.println("MISSING "+name);
+        	}else {
+        		System.out.println("inserting "+name);
+        		PreparedStatement prep = connection.prepareStatement(
+        				String.format("insert into genome(text,virus,subgene) values(?,(select id from virus where name ='%s'),'%d');",
+                    	name,number));
+        		prep.setString(1, buffer);
+        		prep.execute();
+        	}
+        }
+        
+      
+		
+    }
+	public static void updateFromWeb() throws IOException {
       Connection connection = null;
       try
       {
