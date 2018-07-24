@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import database.Virus;
 import gui.Tracker;
 
 public class Comparison {
@@ -69,7 +70,7 @@ public class Comparison {
 			System.out.println(results.poll());
 		}
 	}
-	
+
 	public static String[] getFileInDir(File dir) throws IOException{
 		Pattern sequencep=Pattern.compile("translation=\\\"(.*?)\\\"",Pattern.DOTALL);
 		ArrayList<String>strings=new ArrayList<String>(); 
@@ -198,4 +199,80 @@ public class Comparison {
 		
 	}
 
+	
+	public static List<Match> getSequencesTracked(Virus virus, Virus virus2, int max, Tracker t) {
+		ArrayList<String> found=new ArrayList<String>();
+		ArrayList<Match> fullData=new ArrayList<Match>();
+		
+		//System.out.println(virus+","+virus2);
+		
+		for(int v1=0;v1<virus.getGenome().size();v1++) {
+			for(int v2=0;v2<virus2.getGenome().size();v2++) {
+				
+				String g1=parse(virus.getGenome().get(v1));
+				String g2=parse(virus2.getGenome().get(v2));
+				int maxi=g1.length()-max;
+				int maxj=g2.length()-max;
+				for(int i=0;i<maxi;i++) {
+					
+					if(i%10==0)
+						t.update(100*i/maxi);
+					for(int j=i;j<maxj;j++) {
+						
+						if(g1.charAt(i)!=g2.charAt(j)) {
+							continue;
+						}
+						int dist=MAX_DISTANCE;
+						int count=relation(g1,g2,i,j,dist);
+						if(count>=max) {
+							found.add(g1.substring(i, i+count));
+							fullData.add(new Match(virus,virus2,v1,v2,i, j, g1.substring(i, i+count)));
+						}
+					}
+				}
+			}
+		}
+		
+		for(int i=found.size()-1;i>0;i--) {
+			if(found.get(i-1).substring(1).equals(found.get(i))) {
+				found.remove(i);
+				fullData.remove(i);
+			}
+		}
+		//System.out.println(fullData.size());
+		return fullData;
+		
+	}
+
+	private static String parse(String string) {
+		Pattern sequencep=Pattern.compile("translation=\\\"(.*?)\\\"",Pattern.DOTALL);
+		ArrayList<String>strings=new ArrayList<String>(); 
+		
+		long start=System.currentTimeMillis();
+		
+		int num=0;
+
+
+			
+			String buffer= string;
+			Matcher seqs=sequencep.matcher(buffer);
+			StringBuilder full=new StringBuilder();
+			while(seqs.find()) {
+				full.append(seqs.group(1).trim());
+				
+			}
+			return (full.toString().replaceAll("[\n 1-9]", "").toUpperCase());
+	}
+	
+/*
+		// TODO Auto-generated method stub
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return new ArrayList<Match>();
+	}
+*/
 }

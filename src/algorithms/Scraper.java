@@ -14,6 +14,8 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import database.Virus;
+
 public class Scraper {
 	
 	public static void main(String[] args) throws IOException {
