@@ -23,7 +23,7 @@ public class Comparor {
 			}
 		}
 		in.close();
-		
+
 		/*
 		 * for(String s:counter.keySet()) { if(counter.get(s)>8)
 		 * System.out.println(counter.get(s)+"\t"+s); }

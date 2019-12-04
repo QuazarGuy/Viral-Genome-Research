@@ -18,20 +18,17 @@ public class Scraper {
 		URL url = new URL("https://viralzone.expasy.org/678");
 		Scanner s = new Scanner(new BufferedReader(new InputStreamReader(url.openStream())));
 		System.out.println("Connected");
-
 		// buffer data from site locally
 		String buffer = "";
 		while (s.hasNextLine()) {
 			buffer += s.nextLine();
 		}
 		s.close();
-		
 		// look for the subject list with items starting with that initial()
 		Pattern list = Pattern.compile("<table id=\\\"table\\\"([\\s\\S]*?)</table>");
 		Matcher listm = list.matcher(buffer);
 		if (listm.find()) {
 			buffer = listm.group(0);
-
 		} else {
 			System.err.println("could not find table, quitting");
 			System.exit(-1);

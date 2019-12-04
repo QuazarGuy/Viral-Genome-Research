@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class Comparison {
 
 	public static final int MAX_DISTANCE = 0;
-	public static final int MIN_AMINO_ACIDS = 6;
+	public static final int MIN_AMINO_ACIDS = 7;
 
 	public static void main(String[] args) throws FileNotFoundException, InterruptedException {
 
@@ -22,7 +22,7 @@ public class Comparison {
 		Pattern sequencep = Pattern.compile("translation=\\\"(.*?)\\\"");
 		ArrayList<String> strings = new ArrayList<String>();
 		File dir = new File("Viruses/");
-		int num = 0;
+//		int num=0;
 		for (File f : dir.listFiles()) {
 //			if(num++>30)
 //				break;
@@ -35,7 +35,6 @@ public class Comparison {
 			Matcher seqs = sequencep.matcher(buffer);
 			String full = "";
 			while (seqs.find()) {
-
 				full += seqs.group(1);
 			}
 			strings.add(full.toUpperCase().replaceAll("\n", "").replaceAll("[ 1-9]", ""));

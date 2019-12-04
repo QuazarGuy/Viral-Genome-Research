@@ -1,11 +1,12 @@
 import java.util.HashMap;
 
 public class NGramLibrary {
-	// Name - 3 letter - 1 letter key: http://www.cryst.bbk.ac.uk/education/AminoAcid/the_twenty.html
+	// Name - 3 letter - 1 letter key:
+	// http://www.cryst.bbk.ac.uk/education/AminoAcid/the_twenty.html
 	public enum AminoAcid {
 		A, R, N, D, C, Q, E, G, H, I, L, K, M, F, P, S, T, W, Y, V, B, Z, stop
 	}
-	
+
 	static {
 		HashMap<String, AminoAcid> BPtoAA = new HashMap<String, AminoAcid>();
 		BPtoAA.put("gcu", AminoAcid.A); BPtoAA.put("gca", AminoAcid.A); BPtoAA.put("gca", AminoAcid.A); BPtoAA.put("gcg", AminoAcid.A);
@@ -30,11 +31,11 @@ public class NGramLibrary {
 		BPtoAA.put("guu", AminoAcid.V); BPtoAA.put("gua", AminoAcid.V); BPtoAA.put("gua", AminoAcid.V); BPtoAA.put("gug", AminoAcid.V);
 		BPtoAA.put("uaa", AminoAcid.stop); BPtoAA.put("uag", AminoAcid.stop); BPtoAA.put("uga", AminoAcid.stop);
 	}
-	
+
 	public enum AcidGroup {
 		Na, Ar, Pu, Pc, Nc
 	}
-	
+
 	static {
 		HashMap<AminoAcid, AcidGroup> AAtoAG = new HashMap<AminoAcid, AcidGroup>();
 		AAtoAG.put(AminoAcid.A, AcidGroup.Na);
@@ -58,7 +59,7 @@ public class NGramLibrary {
 		AAtoAG.put(AminoAcid.Y, AcidGroup.Ar);
 		AAtoAG.put(AminoAcid.V, AcidGroup.Na);
 	}
-	
+
 	static {
 		HashMap<AminoAcid, Integer> HydropathyIndex = new HashMap<AminoAcid, Integer>();
 		HydropathyIndex.put(AminoAcid.A, 18);
