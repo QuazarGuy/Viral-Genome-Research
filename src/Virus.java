@@ -1,10 +1,15 @@
 import java.util.List;
 
 public class Virus {
-	
-	
-	String virus; String genus; String host; String transmission; String diseases; List<String> genome;
+
+	String virus;
+	String genus;
+	String host;
+	String transmission;
+	String diseases;
+	List<String> genome;
 	String proteome;
+
 	public Virus(String virus, String genus, String host, String transmission, String diseases, List<String> genome,
 			String proteome) {
 		super();

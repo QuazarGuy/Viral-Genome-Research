@@ -1,21 +1,12 @@
 package gui;
 
-import java.awt.GridLayout;
 import java.awt.ScrollPane;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 
 import javax.swing.BoxLayout;
@@ -25,9 +16,6 @@ import javax.swing.JProgressBar;
 import javax.swing.SwingUtilities;
 import javax.swing.border.TitledBorder;
 
-import algorithms.Comparison;
-import algorithms.Comparor;
-import algorithms.Match;
 import database.Virus;
 import database.VirusDB;
 import algorithms.StringHasher;
@@ -42,7 +30,6 @@ public class ComparorFrame extends JFrame {
 
 	public static void main(String args[]) throws InterruptedException, IOException, SQLException {
 		new ComparorFrame().run();
-		;
 	}
 
 	JPanel panel = new JPanel();
@@ -72,7 +59,6 @@ public class ComparorFrame extends JFrame {
 		this.setSize(panel.getWidth() + 100, 500);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
-
 	}
 
 	public void run() throws InterruptedException, IOException, SQLException {
@@ -82,11 +68,8 @@ public class ComparorFrame extends JFrame {
 			int threads = Runtime.getRuntime().availableProcessors();
 
 			ExecutorService pool = Executors.newFixedThreadPool(threads);
-			
-			
+
 			progressBar.setMaximum(viruses.size() * (viruses.size() - 1) / 2);
-			
-			
 
 			StringHasher[] hashers = new StringHasher[threads];
 			for (int i = 0; i < threads; i++) {
@@ -113,20 +96,15 @@ public class ComparorFrame extends JFrame {
 						panel.remove(vp);
 						compared++;
 						progressBar.setValue(compared);
-
 					});
 					// vp.update(100);
-
 				});
 			}
-
-			
 
 			pool.shutdown();
 			pool.awaitTermination(Long.MAX_VALUE, TimeUnit.MINUTES);
 			for (int i = 1; i < threads; i++) {
 				hashers[0].join(hashers[i]);
-
 			}
 			// hashers[0].print();
 			long time2 = System.currentTimeMillis();
@@ -135,7 +113,6 @@ public class ComparorFrame extends JFrame {
 			hashers[0].add(db);
 			long time3 = System.currentTimeMillis();
 			System.out.println("finished db in " + (time3 - time2));
-
 		}
 	}
 
@@ -149,7 +126,6 @@ public class ComparorFrame extends JFrame {
 			progressBar.setStringPainted(true);
 
 			this.add(progressBar);
-
 		}
 
 		public void update(int prog) {
@@ -157,5 +133,4 @@ public class ComparorFrame extends JFrame {
 			// this.repaint();
 		}
 	}
-
 }

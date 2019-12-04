@@ -1,14 +1,21 @@
 package database;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Virus {
-	
-	
-	String virus; String genus; String host; String transmission; String diseases; List<String> genome;String family;
+
+	String virus;
+	String genus;
+	String host;
+	String transmission;
+	String diseases;
+	List<String> genome;
+	String family;
 	String proteome;
-	public Virus(String virus, String genus,String family, String host, String transmission, String diseases, List<String> genome,
-			String proteome) {
+
+	public Virus(String virus, String genus, String family, String host, String transmission, String diseases,
+			List<String> genome, String proteome) {
 		super();
 		this.virus = virus;
 		this.genus = genus;
@@ -16,12 +23,12 @@ public class Virus {
 		this.transmission = transmission;
 		this.diseases = diseases;
 		this.genome = genome;
-		this.family=family;
+		this.family = family;
 		this.proteome = proteome;
 	}
-	
-	public Virus(String virus,String genus,String family) {
-		this(virus,genus,family,"","","",new ArrayList<String>(),"");
+
+	public Virus(String virus, String genus, String family) {
+		this(virus, genus, family, "", "", "", new ArrayList<String>(), "");
 	}
 
 	public String getVirus() {
@@ -94,7 +101,7 @@ public class Virus {
 
 	public void addGenome(String string) {
 		genome.add(string);
-		
+
 	}
 
 }
